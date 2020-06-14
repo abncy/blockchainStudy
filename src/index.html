@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="renderer" content="webkit">
+  <title>轨道乘客分流系统</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link  rel="shortcut" href="./favicon.ico" type="image/x-icon"/> 
+   <script src=" js/jquery.min.js"></script>
+     <script src="js/app.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/web3.min.js"></script>
+
+
+  <script src="js/truffle-contract.js"></script>
+  <script
+  src="http://api.map.baidu.com/api?type=subway&v=1.0&ak=KZ44aXVyB9htFqgo6Y9PXposkXOwXBvs">
+</script>
+ 
+ 
+
+<style type="text/css">
+
+#map label{  max-width: none;}
+</style>
+
+</head>
+
+<body>
+
+
+  
+  <div id="CreateStation" style="display:none;">
+    <button type="button" class="btn btn-outline-primary stationbtn">创建</button>
+    <button type="button" class="btn btn-outline-primary clearbtn" onclick="App.bindclearEvents()";>清除</button>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="container-md">
+        <h1 class="text-center">轨道乘客分流系统</h1>
+        <hr />
+        <br />
+      </div>
+    </div>
+
+
+    <div class="row">
+
+      <div class="col">
+        <div class="card border-primary mb-3" style="max-width: 100%;">
+          <div class="card-header">输入相应信息购票</div>
+          <div class="card-body text-primary">
+            <p class="card-text">
+              起点站<input id="start" type="start_type" value="尖顶坡"  class="input-group mb-3" />
+            </p>
+      
+            <p class="card-text">
+              终点站<input id="end" type="end_type" value="重庆交通大学" class="input-group mb-3"/>
+            </p>
+      
+            <p class="card-text"> 
+              一共经过的站点数<input id="stationNumber" type="stationNumber_type" value=27 class="input-group mb-3" />
+            </p>
+      
+            <p class="card-text">
+             经过的中转站序号<input id="mid" type="mid_type" value="[0,1]" class="input-group mb-3"/>
+            </p>
+      
+            <p class="card-text">
+              起点站距离最挤的中转站站点个数<input id="start_to_mid" type="mid_type" value=19 class="input-group mb-3"/>
+            </p>
+      
+            <p class="card-text">
+              <div  id="buyticket" >
+                <button type="button" class="btn btn-adopt btn-outline-danger" onclick="App.bindBuyEvents()";>买票</button>
+              </div>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div id="map"   style="position: absolute;
+        margin-top:0px;
+        width: 100%;
+        height: 490px;
+        border: 1px solid rgb(83, 150, 238);
+        overflow:hidden;">
+          </div>
+  
+          </div>
+
+    </div>
+   
+    
+
+
+    <div id="stationsRow" class="row">
+      <!-- stations LOAD HERE -->
+    </div>
+  </div>
+
+  <div id="stationTemplate" style="display: none;">
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="panel panel-default panel-station">
+        <div class="panel-heading">
+          <h3 class="panel-title" >两路口</h3>
+        </div>
+        <div class="panel-body">
+          <img alt="140x140" data-src="holder.js/140x140" class="img-rounded img-center" style="width: 100%;"
+            src="https://animalso.com/wp-content/uploads/2017/01/Golden-Retriever_6.jpg" data-holder-rendered="true">
+          <br /><br />
+          <strong>拥挤度</strong>: <span class="station-breed">0</span><br />
+          <!-- <strong>拥挤度</strong>: <span class="station-age">0</span><br/> -->
+          <strong>人群密度</strong>: <span class="station-location">0</span><br /><br />
+          <strong>站点序号</strong>: <span class="station-id">0</span>
+          <!-- <button class="btn btn-default btn-adopt" id="buyticket" type="button" data-id="0">买票</button> -->
+        </div>
+      </div>
+    </div>
+  </div><br>
+
+
+  <script src="js/baidumap.js"></script>
+  
+</body>
+
+</html>

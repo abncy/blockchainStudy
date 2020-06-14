@@ -1,0 +1,4253 @@
+{
+  "activeTab": {
+    "title": "怎么设定metamask传给合约的gas_百度搜索",
+    "origin": "www.baidu.com",
+    "protocol": "https:",
+    "url": "https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&tn=02003390_43_hao_pg&wd=%E6%80%8E%E4%B9%88%E8%AE%BE%E5%AE%9Ametamask%E4%BC%A0%E7%BB%99%E5%90%88%E7%BA%A6%E7%9A%84gas&oq=%2526gt%253Brror%253A%2520%2526gt%253Brror%253A%2520%255Bethjs-rpc%255D%2520rpc%2520error%2520with%2520payload&rsv_pq=e604cfa700033d56&rsv_t=ad07w04fXvzR13aAJSjVzoPU8RQs2CF9hB2j5sZgRz15RTF6%2FrQesTJSKF%2BzgALRThvV%2F56vsROt&rqlang=cn&rsv_enter=1&rsv_dl=tb&rsv_btype=t&inputT=24857&rsv_sug3=46&rsv_sug1=11&rsv_sug7=100&rsv_sug2=0&rsv_sug4=24857"
+  },
+  "metamask": {
+    "isInitialized": true,
+    "isUnlocked": true,
+    "isAccountMenuOpen": false,
+    "isPopup": true,
+    "rpcTarget": "https://rawtestrpc.metamask.io/",
+    "identities": {
+      "0xfe9a68aae0bde13caea59ccf67040e37ccdc6974": {
+        "name": "Account 1",
+        "address": "0xfe9a68aae0bde13caea59ccf67040e37ccdc6974"
+      },
+      "0x6d10d50d84b5e3f3eccfd8e515dc108a022c71a6": {
+        "name": "Account 5",
+        "address": "0x6d10d50d84b5e3f3eccfd8e515dc108a022c71a6"
+      },
+      "0x14bef4cff91cadf7eefbf751bcf71484cdb6ad54": {
+        "name": "Account 4",
+        "address": "0x14bef4cff91cadf7eefbf751bcf71484cdb6ad54"
+      }
+    },
+    "unapprovedTxs": {},
+    "frequentRpcList": [],
+    "addressBook": {
+      "3": {
+        "0x81b7E08F65Bdf5648606c89998A9CC8164397647": {
+          "address": "0x81b7E08F65Bdf5648606c89998A9CC8164397647",
+          "chainId": "3",
+          "isEns": false,
+          "memo": "",
+          "name": ""
+        }
+      }
+    },
+    "selectedTokenAddress": null,
+    "contractExchangeRates": {},
+    "tokenExchangeRates": {},
+    "tokens": [],
+    "pendingTokens": {},
+    "customNonceValue": "",
+    "send": {
+      "gasLimit": null,
+      "gasPrice": null,
+      "gasTotal": null,
+      "tokenBalance": "0x0",
+      "from": "",
+      "to": "",
+      "amount": "0",
+      "memo": "",
+      "errors": {},
+      "maxModeOn": false,
+      "editingTransactionId": null,
+      "forceGasMin": null,
+      "toNickname": "",
+      "ensResolution": null,
+      "ensResolutionError": ""
+    },
+    "coinOptions": {},
+    "useBlockie": false,
+    "featureFlags": {
+      "showIncomingTransactions": true,
+      "transactionTime": false,
+      "advancedInlineGas": false
+    },
+    "welcomeScreenSeen": false,
+    "currentLocale": "zh_CN",
+    "preferences": {
+      "useNativeCurrencyAsPrimaryCurrency": true
+    },
+    "firstTimeFlowType": "create",
+    "completedOnboarding": true,
+    "knownMethodData": {
+      "0x": {},
+      "0x037cf651": {},
+      "0x8588b2c5": {
+        "name": "Adopt",
+        "params": [
+          {
+            "type": "uint256"
+          }
+        ]
+      },
+      "0xed476bb8": {}
+    },
+    "participateInMetaMetrics": true,
+    "metaMetricsSendCount": 80,
+    "nextNonce": null,
+    "mkrMigrationReminderTimestamp": null,
+    "provider": {
+      "chainId": "10",
+      "nickname": "ganache",
+      "rpcPrefs": {},
+      "rpcTarget": "HTTP://127.0.0.1:7545",
+      "ticker": "ETH",
+      "type": "rpc"
+    },
+    "network": "10",
+    "settings": {
+      "network": "10",
+      "chainId": "10",
+      "rpcUrl": "HTTP://127.0.0.1:7545",
+      "ticker": "ETH",
+      "nickname": "ganache"
+    },
+    "accounts": {
+      "0xfe9a68aae0bde13caea59ccf67040e37ccdc6974": {
+        "address": "0xfe9a68aae0bde13caea59ccf67040e37ccdc6974",
+        "balance": "0x0"
+      },
+      "0x6d10d50d84b5e3f3eccfd8e515dc108a022c71a6": {
+        "address": "0x6d10d50d84b5e3f3eccfd8e515dc108a022c71a6",
+        "balance": "0x1ed09bead87c036ecfc6080392800"
+      },
+      "0x14bef4cff91cadf7eefbf751bcf71484cdb6ad54": {
+        "address": "0x14bef4cff91cadf7eefbf751bcf71484cdb6ad54",
+        "balance": "0x1ed09bead87c03785ca6ac7733000"
+      }
+    },
+    "currentBlockGasLimit": "0x17e199c4106600",
+    "selectedAddressTxList": [
+      {
+        "id": 1026106919498261,
+        "time": 1591521526644,
+        "status": "failed",
+        "metamaskNetworkId": "10",
+        "loadingDefaults": false,
+        "txParams": {
+          "from": "0x14bef4cff91cadf7eefbf751bcf71484cdb6ad54",
+          "to": "0xd836d6ec69faa5dd27b1bb7d047c553959e21663",
+          "nonce": "0x3",
+          "value": "0x0",
+          "data": "0xed476bb8000000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000013",
+          "gas": "0x16afebad75fa80",
+          "gasPrice": "0x4a817c800"
+        },
+        "type": "standard",
+        "transactionCategory": "contractInteraction",
+        "history": [
+          {
+            "id": 1026106919498261,
+            "time": 1591521526644,
+            "status": "unapproved",
+            "metamaskNetworkId": "10",
+            "loadingDefaults": true,
+            "txParams": {
+              "from": "0x14bef4cff91cadf7eefbf751bcf71484cdb6ad54",
+              "to": "0xd836d6ec69faa5dd27b1bb7d047c553959e21663",
+              "data": "0xed476bb8000000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000013"
+            },
+            "type": "standard",
+            "transactionCategory": "contractInteraction"
+          },
+          [
+            {
+              "op": "add",
+              "path": "/txParams/value",
+              "value": "0x0",
+              "timestamp": 1591521527552
+            },
+            {
+              "op": "add",
+              "path": "/txParams/gas",
+              "value": "0x16afebad75fa80"
+            },
+            {
+              "op": "add",
+              "path": "/txParams/gasPrice",
+              "value": "0x4a817c800"
+            },
+            {
+              "op": "replace",
+              "path": "/loadingDefaults",
+              "value": false
+            },
+            {
+              "op": "add",
+              "path": "/gasPriceSpecified",
+              "value": false
+            },
+            {
+              "op": "add",
+              "path": "/gasLimitSpecified",
+              "value": false
+            },
+            {
+              "op": "add",
+              "path": "/simulationFails",
+              "value": {
+                "reason": "[ethjs-rpc] rpc error with payload {\"id\":8976286210648,\"jsonrpc\":\"2.0\",\"params\":[{\"from\":\"0x14bef4cff91cadf7eefbf751bcf71484cdb6ad54\",\"to\":\"0xd836d6ec69faa5dd27b1bb7d047c553959e21663\",\"data\":\"0xed476bb8000000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000013\",\"value\":\"0x0\",\"gasPrice\":\"0x4a817c800\",\"gas\":\"0x16afebad75fa80\"}],\"method\":\"eth_estimateGas\"} [object Object]",
+                "debug": {
+                  "blockNumber": "b",
+                  "blockGasLimit": "17e199c4106600"
+                }
+              }
+            }
+          ],
+          [
+            {
+              "op": "replace",
+              "path": "/simulationFails/debug/blockGasLimit",
+              "value": "17e199c4106600",
+              "note": "#newUnapprovedTransaction - adding the origin",
+              "timestamp": 1591521527558
+            },
+            {
+              "op": "replace",
+              "path": "/simulationFails/debug/blockNumber",
+              "value": "b"
+            },
+            {
+              "op": "add",
+              "path": "/origin",
+              "value": "localhost"
+            }
+          ],
+          [
+            {
+              "op": "replace",
+              "path": "/status",
+              "value": "approved",
+              "note": "txStateManager: setting status to approved",
+              "timestamp": 1591521533260
+            }
+          ],
+          [
+            {
+              "op": "add",
+              "path": "/txParams/nonce",
+              "value": "0x3",
+              "note": "transactions#approveTransaction",
+              "timestamp": 1591521533300
+            },
+            {
+              "op": "add",
+              "path": "/nonceDetails",
+              "value": {
+                "params": {
+                  "highestLocallyConfirmed": 0,
+                  "highestSuggested": 3,
+                  "nextNetworkNonce": 3
+                },
+                "local": {
+                  "name": "local",
+                  "nonce": 3,
+                  "details": {
+                    "startPoint": 3,
+                    "highest": 3
+                  }
+                },
+                "network": {
+                  "name": "network",
+                  "nonce": 3,
+                  "details": {
+                    "blockNumber": "0xb",
+                    "baseCount": 3
+                  }
+                }
+              }
+            }
+          ],
+          [
+            {
+              "op": "add",
+              "path": "/r",
+              "value": "0xf4304d20b50739be51e4ee5f81dd074a2d29de458ad12264bee52969c4b41689",
+              "note": "transactions#signTransaction: add r, s, v values",
+              "timestamp": 1591521533353
+            },
+            {
+              "op": "add",
+              "path": "/s",
+              "value": "0x45a7f1ba1a88e24b2a13a3489a70d28fd6eeeef4eaecac1a6e6a84708a6dbb1c"
+            },
+            {
+              "op": "add",
+              "path": "/v",
+              "value": "0x37"
+            }
+          ],
+          [
+            {
+              "op": "replace",
+              "path": "/status",
+              "value": "signed",
+              "note": "transactions#publishTransaction",
+              "timestamp": 1591521533357
+            },
+            {
+              "op": "add",
+              "path": "/rawTx",
+              "value": "0xf8ce038504a817c8008716afebad75fa8094d836d6ec69faa5dd27b1bb7d047c553959e2166380b864ed476bb800000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001337a0f4304d20b50739be51e4ee5f81dd074a2d29de458ad12264bee52969c4b41689a045a7f1ba1a88e24b2a13a3489a70d28fd6eeeef4eaecac1a6e6a84708a6dbb1c"
+            }
+          ],
+          [
+            {
+              "op": "add",
+              "path": "/err",
+              "value": {
+                "message": "Error: [ethjs-rpc] rpc error with payload {\"id\":7845998572065,\"jsonrpc\":\"2.0\",\"params\":[\"0xf8ce038504a817c8008716afebad75fa8094d836d6ec69faa5dd27b1bb7d047c553959e2166380b864ed476bb800000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001337a0f4304d20b50739be51e4ee5f81dd074a2d29de458ad12264bee52969c4b41689a045a7f1ba1a88e24b2a13a3489a70d28fd6eeeef4eaecac1a6e6a84708a6dbb1c\"],\"method\":\"eth_sendRawTransaction\"} [object Object]",
+                "rpc": {
+                  "code": -32603,
+                  "message": "[object Object]",
+                  "data": {
+                    "message": "VM Exception while processing transaction: revert",
+                    "code": -32000,
+                    "data": {
+                      "0xc5c27864c5a10846c7953404049ba255eaeb4be145fcb562852a0172c89b4ff5": {
+                        "error": "revert",
+                        "program_counter": 6429,
+                        "return": "0x"
+                      },
+                      "stack": "RuntimeError: VM Exception while processing transaction: revert\n    at Function.RuntimeError.fromResults (C:\\Program Files\\WindowsApps\\GanacheUI_2.3.0.0_x64__5dg5pnz03psnj\\app\\resources\\static\\node\\node_modules\\ganache-core\\lib\\utils\\runtimeerror.js:89:13)\n    at BlockchainDouble.processBlock (C:\\Program Files\\WindowsApps\\GanacheUI_2.3.0.0_x64__5dg5pnz03psnj\\app\\resources\\static\\node\\node_modules\\ganache-core\\lib\\blockchain_double.js:632:24)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+                      "name": "RuntimeError"
+                    }
+                  },
+                  "stack": "Error: [object Object]\n    at a (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1188007)\n    at Object.internal (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1188293)\n    at f (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1209307)\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1208518"
+                },
+                "stack": "Error: [ethjs-rpc] rpc error with payload {\"id\":7845998572065,\"jsonrpc\":\"2.0\",\"params\":[\"0xf8ce038504a817c8008716afebad75fa8094d836d6ec69faa5dd27b1bb7d047c553959e2166380b864ed476bb800000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001337a0f4304d20b50739be51e4ee5f81dd074a2d29de458ad12264bee52969c4b41689a045a7f1ba1a88e24b2a13a3489a70d28fd6eeeef4eaecac1a6e6a84708a6dbb1c\"],\"method\":\"eth_sendRawTransaction\"} [object Object]\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1458085\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1942645\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1914146\n    at i (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1932650)\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917050\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1914146\n    at u (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917338)\n    at c (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917256)\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917050\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1914146\n    at u (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917338)\n    at c (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917256)\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917050\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1941647\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:2386698\n    at m.run (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:2156003)\n    at p (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:2155497)"
+              },
+              "note": "transactions:tx-state-manager#fail - add error",
+              "timestamp": 1591521533944
+            }
+          ],
+          [
+            {
+              "op": "replace",
+              "path": "/status",
+              "value": "failed",
+              "note": "txStateManager: setting status to failed",
+              "timestamp": 1591521533966
+            }
+          ]
+        ],
+        "gasPriceSpecified": false,
+        "gasLimitSpecified": false,
+        "simulationFails": {
+          "reason": "[ethjs-rpc] rpc error with payload {\"id\":8976286210648,\"jsonrpc\":\"2.0\",\"params\":[{\"from\":\"0x14bef4cff91cadf7eefbf751bcf71484cdb6ad54\",\"to\":\"0xd836d6ec69faa5dd27b1bb7d047c553959e21663\",\"data\":\"0xed476bb8000000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000013\",\"value\":\"0x0\",\"gasPrice\":\"0x4a817c800\",\"gas\":\"0x16afebad75fa80\"}],\"method\":\"eth_estimateGas\"} [object Object]",
+          "debug": {
+            "blockNumber": "b",
+            "blockGasLimit": "17e199c4106600"
+          }
+        },
+        "origin": "localhost",
+        "nonceDetails": {
+          "params": {
+            "highestLocallyConfirmed": 0,
+            "highestSuggested": 3,
+            "nextNetworkNonce": 3
+          },
+          "local": {
+            "name": "local",
+            "nonce": 3,
+            "details": {
+              "startPoint": 3,
+              "highest": 3
+            }
+          },
+          "network": {
+            "name": "network",
+            "nonce": 3,
+            "details": {
+              "blockNumber": "0xb",
+              "baseCount": 3
+            }
+          }
+        },
+        "r": "0xf4304d20b50739be51e4ee5f81dd074a2d29de458ad12264bee52969c4b41689",
+        "s": "0x45a7f1ba1a88e24b2a13a3489a70d28fd6eeeef4eaecac1a6e6a84708a6dbb1c",
+        "v": "0x37",
+        "rawTx": "0xf8ce038504a817c8008716afebad75fa8094d836d6ec69faa5dd27b1bb7d047c553959e2166380b864ed476bb800000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001337a0f4304d20b50739be51e4ee5f81dd074a2d29de458ad12264bee52969c4b41689a045a7f1ba1a88e24b2a13a3489a70d28fd6eeeef4eaecac1a6e6a84708a6dbb1c",
+        "err": {
+          "message": "Error: [ethjs-rpc] rpc error with payload {\"id\":7845998572065,\"jsonrpc\":\"2.0\",\"params\":[\"0xf8ce038504a817c8008716afebad75fa8094d836d6ec69faa5dd27b1bb7d047c553959e2166380b864ed476bb800000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001337a0f4304d20b50739be51e4ee5f81dd074a2d29de458ad12264bee52969c4b41689a045a7f1ba1a88e24b2a13a3489a70d28fd6eeeef4eaecac1a6e6a84708a6dbb1c\"],\"method\":\"eth_sendRawTransaction\"} [object Object]",
+          "rpc": {
+            "code": -32603,
+            "message": "[object Object]",
+            "data": {
+              "message": "VM Exception while processing transaction: revert",
+              "code": -32000,
+              "data": {
+                "0xc5c27864c5a10846c7953404049ba255eaeb4be145fcb562852a0172c89b4ff5": {
+                  "error": "revert",
+                  "program_counter": 6429,
+                  "return": "0x"
+                },
+                "stack": "RuntimeError: VM Exception while processing transaction: revert\n    at Function.RuntimeError.fromResults (C:\\Program Files\\WindowsApps\\GanacheUI_2.3.0.0_x64__5dg5pnz03psnj\\app\\resources\\static\\node\\node_modules\\ganache-core\\lib\\utils\\runtimeerror.js:89:13)\n    at BlockchainDouble.processBlock (C:\\Program Files\\WindowsApps\\GanacheUI_2.3.0.0_x64__5dg5pnz03psnj\\app\\resources\\static\\node\\node_modules\\ganache-core\\lib\\blockchain_double.js:632:24)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+                "name": "RuntimeError"
+              }
+            },
+            "stack": "Error: [object Object]\n    at a (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1188007)\n    at Object.internal (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1188293)\n    at f (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1209307)\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1208518"
+          },
+          "stack": "Error: [ethjs-rpc] rpc error with payload {\"id\":7845998572065,\"jsonrpc\":\"2.0\",\"params\":[\"0xf8ce038504a817c8008716afebad75fa8094d836d6ec69faa5dd27b1bb7d047c553959e2166380b864ed476bb800000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001337a0f4304d20b50739be51e4ee5f81dd074a2d29de458ad12264bee52969c4b41689a045a7f1ba1a88e24b2a13a3489a70d28fd6eeeef4eaecac1a6e6a84708a6dbb1c\"],\"method\":\"eth_sendRawTransaction\"} [object Object]\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1458085\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1942645\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1914146\n    at i (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1932650)\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917050\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1914146\n    at u (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917338)\n    at c (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917256)\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917050\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1914146\n    at u (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917338)\n    at c (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917256)\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917050\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1941647\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:2386698\n    at m.run (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:2156003)\n    at p (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:2155497)"
+        }
+      },
+      {
+        "id": 1026106919498262,
+        "time": 1591521526662,
+        "status": "failed",
+        "metamaskNetworkId": "10",
+        "loadingDefaults": false,
+        "txParams": {
+          "from": "0x14bef4cff91cadf7eefbf751bcf71484cdb6ad54",
+          "to": "0xd836d6ec69faa5dd27b1bb7d047c553959e21663",
+          "nonce": "0x4",
+          "value": "0x0",
+          "data": "0xed476bb8000000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000013",
+          "gas": "0x16afebad75fa80",
+          "gasPrice": "0x4a817c800"
+        },
+        "type": "standard",
+        "transactionCategory": "contractInteraction",
+        "history": [
+          {
+            "id": 1026106919498262,
+            "time": 1591521526662,
+            "status": "unapproved",
+            "metamaskNetworkId": "10",
+            "loadingDefaults": true,
+            "txParams": {
+              "from": "0x14bef4cff91cadf7eefbf751bcf71484cdb6ad54",
+              "to": "0xd836d6ec69faa5dd27b1bb7d047c553959e21663",
+              "data": "0xed476bb8000000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000013"
+            },
+            "type": "standard",
+            "transactionCategory": "contractInteraction"
+          },
+          [
+            {
+              "op": "add",
+              "path": "/txParams/value",
+              "value": "0x0",
+              "timestamp": 1591521527513
+            },
+            {
+              "op": "add",
+              "path": "/txParams/gas",
+              "value": "0x16afebad75fa80"
+            },
+            {
+              "op": "add",
+              "path": "/txParams/gasPrice",
+              "value": "0x4a817c800"
+            },
+            {
+              "op": "replace",
+              "path": "/loadingDefaults",
+              "value": false
+            },
+            {
+              "op": "add",
+              "path": "/gasPriceSpecified",
+              "value": false
+            },
+            {
+              "op": "add",
+              "path": "/gasLimitSpecified",
+              "value": false
+            },
+            {
+              "op": "add",
+              "path": "/simulationFails",
+              "value": {
+                "reason": "[ethjs-rpc] rpc error with payload {\"id\":8976286210649,\"jsonrpc\":\"2.0\",\"params\":[{\"from\":\"0x14bef4cff91cadf7eefbf751bcf71484cdb6ad54\",\"to\":\"0xd836d6ec69faa5dd27b1bb7d047c553959e21663\",\"data\":\"0xed476bb8000000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000013\",\"value\":\"0x0\",\"gasPrice\":\"0x4a817c800\",\"gas\":\"0x16afebad75fa80\"}],\"method\":\"eth_estimateGas\"} [object Object]",
+                "debug": {
+                  "blockNumber": "b",
+                  "blockGasLimit": "17e199c4106600"
+                }
+              }
+            }
+          ],
+          [
+            {
+              "op": "replace",
+              "path": "/simulationFails/debug/blockGasLimit",
+              "value": "17e199c4106600",
+              "note": "#newUnapprovedTransaction - adding the origin",
+              "timestamp": 1591521527516
+            },
+            {
+              "op": "replace",
+              "path": "/simulationFails/debug/blockNumber",
+              "value": "b"
+            },
+            {
+              "op": "add",
+              "path": "/origin",
+              "value": "localhost"
+            }
+          ],
+          [
+            {
+              "op": "replace",
+              "path": "/status",
+              "value": "approved",
+              "note": "txStateManager: setting status to approved",
+              "timestamp": 1591521553448
+            }
+          ],
+          [
+            {
+              "op": "add",
+              "path": "/txParams/nonce",
+              "value": "0x4",
+              "note": "transactions#approveTransaction",
+              "timestamp": 1591521553549
+            },
+            {
+              "op": "add",
+              "path": "/nonceDetails",
+              "value": {
+                "params": {
+                  "highestLocallyConfirmed": 0,
+                  "highestSuggested": 4,
+                  "nextNetworkNonce": 4
+                },
+                "local": {
+                  "name": "local",
+                  "nonce": 4,
+                  "details": {
+                    "startPoint": 4,
+                    "highest": 4
+                  }
+                },
+                "network": {
+                  "name": "network",
+                  "nonce": 4,
+                  "details": {
+                    "blockNumber": "0xc",
+                    "baseCount": 4
+                  }
+                }
+              }
+            }
+          ],
+          [
+            {
+              "op": "add",
+              "path": "/r",
+              "value": "0xee9079dc6499cc73b92055822d02357c1c9a6c79b075eb06ac0cd5a254babd09",
+              "note": "transactions#signTransaction: add r, s, v values",
+              "timestamp": 1591521553585
+            },
+            {
+              "op": "add",
+              "path": "/s",
+              "value": "0x1ea0ce1e363c5669a8a27a8cb35656e25b8601b549e80b85571a2a80c30b0da5"
+            },
+            {
+              "op": "add",
+              "path": "/v",
+              "value": "0x37"
+            }
+          ],
+          [
+            {
+              "op": "replace",
+              "path": "/status",
+              "value": "signed",
+              "note": "transactions#publishTransaction",
+              "timestamp": 1591521553589
+            },
+            {
+              "op": "add",
+              "path": "/rawTx",
+              "value": "0xf8ce048504a817c8008716afebad75fa8094d836d6ec69faa5dd27b1bb7d047c553959e2166380b864ed476bb800000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001337a0ee9079dc6499cc73b92055822d02357c1c9a6c79b075eb06ac0cd5a254babd09a01ea0ce1e363c5669a8a27a8cb35656e25b8601b549e80b85571a2a80c30b0da5"
+            }
+          ],
+          [
+            {
+              "op": "add",
+              "path": "/err",
+              "value": {
+                "message": "Error: [ethjs-rpc] rpc error with payload {\"id\":7845998572068,\"jsonrpc\":\"2.0\",\"params\":[\"0xf8ce048504a817c8008716afebad75fa8094d836d6ec69faa5dd27b1bb7d047c553959e2166380b864ed476bb800000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001337a0ee9079dc6499cc73b92055822d02357c1c9a6c79b075eb06ac0cd5a254babd09a01ea0ce1e363c5669a8a27a8cb35656e25b8601b549e80b85571a2a80c30b0da5\"],\"method\":\"eth_sendRawTransaction\"} [object Object]",
+                "rpc": {
+                  "code": -32603,
+                  "message": "[object Object]",
+                  "data": {
+                    "message": "VM Exception while processing transaction: revert",
+                    "code": -32000,
+                    "data": {
+                      "0xe9383b8dc9854e6871df78c68824e1fcd9b31f4eb66781a44708f9c4d3870ea4": {
+                        "error": "revert",
+                        "program_counter": 6429,
+                        "return": "0x"
+                      },
+                      "stack": "RuntimeError: VM Exception while processing transaction: revert\n    at Function.RuntimeError.fromResults (C:\\Program Files\\WindowsApps\\GanacheUI_2.3.0.0_x64__5dg5pnz03psnj\\app\\resources\\static\\node\\node_modules\\ganache-core\\lib\\utils\\runtimeerror.js:89:13)\n    at BlockchainDouble.processBlock (C:\\Program Files\\WindowsApps\\GanacheUI_2.3.0.0_x64__5dg5pnz03psnj\\app\\resources\\static\\node\\node_modules\\ganache-core\\lib\\blockchain_double.js:632:24)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+                      "name": "RuntimeError"
+                    }
+                  },
+                  "stack": "Error: [object Object]\n    at a (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1188007)\n    at Object.internal (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1188293)\n    at f (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1209307)\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1208518"
+                },
+                "stack": "Error: [ethjs-rpc] rpc error with payload {\"id\":7845998572068,\"jsonrpc\":\"2.0\",\"params\":[\"0xf8ce048504a817c8008716afebad75fa8094d836d6ec69faa5dd27b1bb7d047c553959e2166380b864ed476bb800000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001337a0ee9079dc6499cc73b92055822d02357c1c9a6c79b075eb06ac0cd5a254babd09a01ea0ce1e363c5669a8a27a8cb35656e25b8601b549e80b85571a2a80c30b0da5\"],\"method\":\"eth_sendRawTransaction\"} [object Object]\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1458085\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1942645\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1914146\n    at i (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1932650)\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917050\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1914146\n    at u (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917338)\n    at c (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917256)\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917050\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1914146\n    at u (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917338)\n    at c (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917256)\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917050\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1941647\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:2386698\n    at m.run (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:2156003)\n    at p (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:2155497)"
+              },
+              "note": "transactions:tx-state-manager#fail - add error",
+              "timestamp": 1591521554258
+            }
+          ],
+          [
+            {
+              "op": "replace",
+              "path": "/status",
+              "value": "failed",
+              "note": "txStateManager: setting status to failed",
+              "timestamp": 1591521554277
+            }
+          ]
+        ],
+        "gasPriceSpecified": false,
+        "gasLimitSpecified": false,
+        "simulationFails": {
+          "reason": "[ethjs-rpc] rpc error with payload {\"id\":8976286210649,\"jsonrpc\":\"2.0\",\"params\":[{\"from\":\"0x14bef4cff91cadf7eefbf751bcf71484cdb6ad54\",\"to\":\"0xd836d6ec69faa5dd27b1bb7d047c553959e21663\",\"data\":\"0xed476bb8000000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000013\",\"value\":\"0x0\",\"gasPrice\":\"0x4a817c800\",\"gas\":\"0x16afebad75fa80\"}],\"method\":\"eth_estimateGas\"} [object Object]",
+          "debug": {
+            "blockNumber": "b",
+            "blockGasLimit": "17e199c4106600"
+          }
+        },
+        "origin": "localhost",
+        "nonceDetails": {
+          "params": {
+            "highestLocallyConfirmed": 0,
+            "highestSuggested": 4,
+            "nextNetworkNonce": 4
+          },
+          "local": {
+            "name": "local",
+            "nonce": 4,
+            "details": {
+              "startPoint": 4,
+              "highest": 4
+            }
+          },
+          "network": {
+            "name": "network",
+            "nonce": 4,
+            "details": {
+              "blockNumber": "0xc",
+              "baseCount": 4
+            }
+          }
+        },
+        "r": "0xee9079dc6499cc73b92055822d02357c1c9a6c79b075eb06ac0cd5a254babd09",
+        "s": "0x1ea0ce1e363c5669a8a27a8cb35656e25b8601b549e80b85571a2a80c30b0da5",
+        "v": "0x37",
+        "rawTx": "0xf8ce048504a817c8008716afebad75fa8094d836d6ec69faa5dd27b1bb7d047c553959e2166380b864ed476bb800000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001337a0ee9079dc6499cc73b92055822d02357c1c9a6c79b075eb06ac0cd5a254babd09a01ea0ce1e363c5669a8a27a8cb35656e25b8601b549e80b85571a2a80c30b0da5",
+        "err": {
+          "message": "Error: [ethjs-rpc] rpc error with payload {\"id\":7845998572068,\"jsonrpc\":\"2.0\",\"params\":[\"0xf8ce048504a817c8008716afebad75fa8094d836d6ec69faa5dd27b1bb7d047c553959e2166380b864ed476bb800000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001337a0ee9079dc6499cc73b92055822d02357c1c9a6c79b075eb06ac0cd5a254babd09a01ea0ce1e363c5669a8a27a8cb35656e25b8601b549e80b85571a2a80c30b0da5\"],\"method\":\"eth_sendRawTransaction\"} [object Object]",
+          "rpc": {
+            "code": -32603,
+            "message": "[object Object]",
+            "data": {
+              "message": "VM Exception while processing transaction: revert",
+              "code": -32000,
+              "data": {
+                "0xe9383b8dc9854e6871df78c68824e1fcd9b31f4eb66781a44708f9c4d3870ea4": {
+                  "error": "revert",
+                  "program_counter": 6429,
+                  "return": "0x"
+                },
+                "stack": "RuntimeError: VM Exception while processing transaction: revert\n    at Function.RuntimeError.fromResults (C:\\Program Files\\WindowsApps\\GanacheUI_2.3.0.0_x64__5dg5pnz03psnj\\app\\resources\\static\\node\\node_modules\\ganache-core\\lib\\utils\\runtimeerror.js:89:13)\n    at BlockchainDouble.processBlock (C:\\Program Files\\WindowsApps\\GanacheUI_2.3.0.0_x64__5dg5pnz03psnj\\app\\resources\\static\\node\\node_modules\\ganache-core\\lib\\blockchain_double.js:632:24)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+                "name": "RuntimeError"
+              }
+            },
+            "stack": "Error: [object Object]\n    at a (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1188007)\n    at Object.internal (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1188293)\n    at f (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1209307)\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1208518"
+          },
+          "stack": "Error: [ethjs-rpc] rpc error with payload {\"id\":7845998572068,\"jsonrpc\":\"2.0\",\"params\":[\"0xf8ce048504a817c8008716afebad75fa8094d836d6ec69faa5dd27b1bb7d047c553959e2166380b864ed476bb800000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001337a0ee9079dc6499cc73b92055822d02357c1c9a6c79b075eb06ac0cd5a254babd09a01ea0ce1e363c5669a8a27a8cb35656e25b8601b549e80b85571a2a80c30b0da5\"],\"method\":\"eth_sendRawTransaction\"} [object Object]\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1458085\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1942645\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1914146\n    at i (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1932650)\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917050\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1914146\n    at u (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917338)\n    at c (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917256)\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917050\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1914146\n    at u (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917338)\n    at c (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917256)\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917050\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1941647\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:2386698\n    at m.run (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:2156003)\n    at p (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:2155497)"
+        }
+      },
+      {
+        "id": 1026106919498263,
+        "time": 1591521549659,
+        "status": "failed",
+        "metamaskNetworkId": "10",
+        "loadingDefaults": false,
+        "txParams": {
+          "from": "0x14bef4cff91cadf7eefbf751bcf71484cdb6ad54",
+          "to": "0xd836d6ec69faa5dd27b1bb7d047c553959e21663",
+          "nonce": "0x4",
+          "value": "0x0",
+          "data": "0xed476bb8000000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000013",
+          "gas": "0x16afebad75fa80",
+          "gasPrice": "0x4a817c800"
+        },
+        "type": "standard",
+        "transactionCategory": "contractInteraction",
+        "history": [
+          {
+            "id": 1026106919498263,
+            "time": 1591521549659,
+            "status": "unapproved",
+            "metamaskNetworkId": "10",
+            "loadingDefaults": true,
+            "txParams": {
+              "from": "0x14bef4cff91cadf7eefbf751bcf71484cdb6ad54",
+              "to": "0xd836d6ec69faa5dd27b1bb7d047c553959e21663",
+              "data": "0xed476bb8000000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000013"
+            },
+            "type": "standard",
+            "transactionCategory": "contractInteraction"
+          },
+          [
+            {
+              "op": "add",
+              "path": "/txParams/value",
+              "value": "0x0",
+              "timestamp": 1591521549985
+            },
+            {
+              "op": "add",
+              "path": "/txParams/gas",
+              "value": "0x16afebad75fa80"
+            },
+            {
+              "op": "add",
+              "path": "/txParams/gasPrice",
+              "value": "0x4a817c800"
+            },
+            {
+              "op": "replace",
+              "path": "/loadingDefaults",
+              "value": false
+            },
+            {
+              "op": "add",
+              "path": "/gasPriceSpecified",
+              "value": false
+            },
+            {
+              "op": "add",
+              "path": "/gasLimitSpecified",
+              "value": false
+            },
+            {
+              "op": "add",
+              "path": "/simulationFails",
+              "value": {
+                "reason": "[ethjs-rpc] rpc error with payload {\"id\":8976286210651,\"jsonrpc\":\"2.0\",\"params\":[{\"from\":\"0x14bef4cff91cadf7eefbf751bcf71484cdb6ad54\",\"to\":\"0xd836d6ec69faa5dd27b1bb7d047c553959e21663\",\"data\":\"0xed476bb8000000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000013\",\"value\":\"0x0\",\"gasPrice\":\"0x4a817c800\",\"gas\":\"0x16afebad75fa80\"}],\"method\":\"eth_estimateGas\"} [object Object]",
+                "debug": {
+                  "blockNumber": "b",
+                  "blockGasLimit": "17e199c4106600"
+                }
+              }
+            }
+          ],
+          [
+            {
+              "op": "replace",
+              "path": "/simulationFails/debug/blockGasLimit",
+              "value": "17e199c4106600",
+              "note": "#newUnapprovedTransaction - adding the origin",
+              "timestamp": 1591521549990
+            },
+            {
+              "op": "replace",
+              "path": "/simulationFails/debug/blockNumber",
+              "value": "b"
+            },
+            {
+              "op": "add",
+              "path": "/origin",
+              "value": "localhost"
+            }
+          ],
+          [
+            {
+              "op": "replace",
+              "path": "/status",
+              "value": "approved",
+              "note": "txStateManager: setting status to approved",
+              "timestamp": 1591521555868
+            }
+          ],
+          [
+            {
+              "op": "add",
+              "path": "/txParams/nonce",
+              "value": "0x4",
+              "note": "transactions#approveTransaction",
+              "timestamp": 1591521555910
+            },
+            {
+              "op": "add",
+              "path": "/nonceDetails",
+              "value": {
+                "params": {
+                  "highestLocallyConfirmed": 0,
+                  "highestSuggested": 4,
+                  "nextNetworkNonce": 4
+                },
+                "local": {
+                  "name": "local",
+                  "nonce": 4,
+                  "details": {
+                    "startPoint": 4,
+                    "highest": 4
+                  }
+                },
+                "network": {
+                  "name": "network",
+                  "nonce": 4,
+                  "details": {
+                    "blockNumber": "0xc",
+                    "baseCount": 4
+                  }
+                }
+              }
+            }
+          ],
+          [
+            {
+              "op": "add",
+              "path": "/r",
+              "value": "0xee9079dc6499cc73b92055822d02357c1c9a6c79b075eb06ac0cd5a254babd09",
+              "note": "transactions#signTransaction: add r, s, v values",
+              "timestamp": 1591521555934
+            },
+            {
+              "op": "add",
+              "path": "/s",
+              "value": "0x1ea0ce1e363c5669a8a27a8cb35656e25b8601b549e80b85571a2a80c30b0da5"
+            },
+            {
+              "op": "add",
+              "path": "/v",
+              "value": "0x37"
+            }
+          ],
+          [
+            {
+              "op": "replace",
+              "path": "/status",
+              "value": "signed",
+              "note": "transactions#publishTransaction",
+              "timestamp": 1591521555943
+            },
+            {
+              "op": "add",
+              "path": "/rawTx",
+              "value": "0xf8ce048504a817c8008716afebad75fa8094d836d6ec69faa5dd27b1bb7d047c553959e2166380b864ed476bb800000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001337a0ee9079dc6499cc73b92055822d02357c1c9a6c79b075eb06ac0cd5a254babd09a01ea0ce1e363c5669a8a27a8cb35656e25b8601b549e80b85571a2a80c30b0da5"
+            }
+          ],
+          [
+            {
+              "op": "add",
+              "path": "/err",
+              "value": {
+                "message": "Error: [ethjs-rpc] rpc error with payload {\"id\":7845998572069,\"jsonrpc\":\"2.0\",\"params\":[\"0xf8ce048504a817c8008716afebad75fa8094d836d6ec69faa5dd27b1bb7d047c553959e2166380b864ed476bb800000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001337a0ee9079dc6499cc73b92055822d02357c1c9a6c79b075eb06ac0cd5a254babd09a01ea0ce1e363c5669a8a27a8cb35656e25b8601b549e80b85571a2a80c30b0da5\"],\"method\":\"eth_sendRawTransaction\"} [object Object]",
+                "rpc": {
+                  "code": -32603,
+                  "message": "[object Object]",
+                  "data": {
+                    "message": "the tx doesn't have the correct nonce. account has nonce of: 5 tx has nonce of: 4",
+                    "code": -32000,
+                    "data": {
+                      "stack": "TXRejectedError: the tx doesn't have the correct nonce. account has nonce of: 5 tx has nonce of: 4\n    at validateNonce (C:\\Program Files\\WindowsApps\\GanacheUI_2.3.0.0_x64__5dg5pnz03psnj\\app\\resources\\static\\node\\node_modules\\ganache-core\\lib\\statemanager.js:1009:11)\n    at C:\\Program Files\\WindowsApps\\GanacheUI_2.3.0.0_x64__5dg5pnz03psnj\\app\\resources\\static\\node\\node_modules\\ganache-core\\lib\\statemanager.js:1018:7\n    at C:\\Program Files\\WindowsApps\\GanacheUI_2.3.0.0_x64__5dg5pnz03psnj\\app\\resources\\static\\node\\node_modules\\ganache-core\\lib\\blockchain_double.js:449:5\n    at C:\\Program Files\\WindowsApps\\GanacheUI_2.3.0.0_x64__5dg5pnz03psnj\\app\\resources\\static\\node\\node_modules\\ganache-core\\node_modules\\merkle-patricia-tree\\baseTrie.js:77:5\n    at C:\\Program Files\\WindowsApps\\GanacheUI_2.3.0.0_x64__5dg5pnz03psnj\\app\\resources\\static\\node\\node_modules\\ganache-core\\node_modules\\merkle-patricia-tree\\baseTrie.js:461:14\n    at Object.return (C:\\Program Files\\WindowsApps\\GanacheUI_2.3.0.0_x64__5dg5pnz03psnj\\app\\resources\\static\\node\\node_modules\\ganache-core\\node_modules\\merkle-patricia-tree\\baseTrie.js:485:9)\n    at processNode (C:\\Program Files\\WindowsApps\\GanacheUI_2.3.0.0_x64__5dg5pnz03psnj\\app\\resources\\static\\node\\node_modules\\ganache-core\\node_modules\\merkle-patricia-tree\\baseTrie.js:285:30)\n    at processNode (C:\\Program Files\\WindowsApps\\GanacheUI_2.3.0.0_x64__5dg5pnz03psnj\\app\\resources\\static\\node\\node_modules\\ganache-core\\node_modules\\merkle-patricia-tree\\baseTrie.js:521:5)\n    at C:\\Program Files\\WindowsApps\\GanacheUI_2.3.0.0_x64__5dg5pnz03psnj\\app\\resources\\static\\node\\node_modules\\ganache-core\\node_modules\\merkle-patricia-tree\\baseTrie.js:516:13\n    at C:\\Program Files\\WindowsApps\\GanacheUI_2.3.0.0_x64__5dg5pnz03psnj\\app\\resources\\static\\node\\node_modules\\ganache-core\\node_modules\\merkle-patricia-tree\\baseTrie.js:180:7\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)",
+                      "name": "TXRejectedError"
+                    }
+                  },
+                  "stack": "Error: [object Object]\n    at a (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1188007)\n    at Object.internal (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1188293)\n    at f (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1209307)\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1208518"
+                },
+                "stack": "Error: [ethjs-rpc] rpc error with payload {\"id\":7845998572069,\"jsonrpc\":\"2.0\",\"params\":[\"0xf8ce048504a817c8008716afebad75fa8094d836d6ec69faa5dd27b1bb7d047c553959e2166380b864ed476bb800000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001337a0ee9079dc6499cc73b92055822d02357c1c9a6c79b075eb06ac0cd5a254babd09a01ea0ce1e363c5669a8a27a8cb35656e25b8601b549e80b85571a2a80c30b0da5\"],\"method\":\"eth_sendRawTransaction\"} [object Object]\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1458085\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1942645\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1914146\n    at i (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1932650)\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917050\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1914146\n    at u (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917338)\n    at c (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917256)\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917050\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1914146\n    at u (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917338)\n    at c (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917256)\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917050\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1941647\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:2386698\n    at m.run (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:2156003)\n    at p (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:2155497)"
+              },
+              "note": "transactions:tx-state-manager#fail - add error",
+              "timestamp": 1591521556061
+            }
+          ],
+          [
+            {
+              "op": "replace",
+              "path": "/status",
+              "value": "failed",
+              "note": "txStateManager: setting status to failed",
+              "timestamp": 1591521556069
+            }
+          ]
+        ],
+        "gasPriceSpecified": false,
+        "gasLimitSpecified": false,
+        "simulationFails": {
+          "reason": "[ethjs-rpc] rpc error with payload {\"id\":8976286210651,\"jsonrpc\":\"2.0\",\"params\":[{\"from\":\"0x14bef4cff91cadf7eefbf751bcf71484cdb6ad54\",\"to\":\"0xd836d6ec69faa5dd27b1bb7d047c553959e21663\",\"data\":\"0xed476bb8000000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000013\",\"value\":\"0x0\",\"gasPrice\":\"0x4a817c800\",\"gas\":\"0x16afebad75fa80\"}],\"method\":\"eth_estimateGas\"} [object Object]",
+          "debug": {
+            "blockNumber": "b",
+            "blockGasLimit": "17e199c4106600"
+          }
+        },
+        "origin": "localhost",
+        "nonceDetails": {
+          "params": {
+            "highestLocallyConfirmed": 0,
+            "highestSuggested": 4,
+            "nextNetworkNonce": 4
+          },
+          "local": {
+            "name": "local",
+            "nonce": 4,
+            "details": {
+              "startPoint": 4,
+              "highest": 4
+            }
+          },
+          "network": {
+            "name": "network",
+            "nonce": 4,
+            "details": {
+              "blockNumber": "0xc",
+              "baseCount": 4
+            }
+          }
+        },
+        "r": "0xee9079dc6499cc73b92055822d02357c1c9a6c79b075eb06ac0cd5a254babd09",
+        "s": "0x1ea0ce1e363c5669a8a27a8cb35656e25b8601b549e80b85571a2a80c30b0da5",
+        "v": "0x37",
+        "rawTx": "0xf8ce048504a817c8008716afebad75fa8094d836d6ec69faa5dd27b1bb7d047c553959e2166380b864ed476bb800000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001337a0ee9079dc6499cc73b92055822d02357c1c9a6c79b075eb06ac0cd5a254babd09a01ea0ce1e363c5669a8a27a8cb35656e25b8601b549e80b85571a2a80c30b0da5",
+        "err": {
+          "message": "Error: [ethjs-rpc] rpc error with payload {\"id\":7845998572069,\"jsonrpc\":\"2.0\",\"params\":[\"0xf8ce048504a817c8008716afebad75fa8094d836d6ec69faa5dd27b1bb7d047c553959e2166380b864ed476bb800000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001337a0ee9079dc6499cc73b92055822d02357c1c9a6c79b075eb06ac0cd5a254babd09a01ea0ce1e363c5669a8a27a8cb35656e25b8601b549e80b85571a2a80c30b0da5\"],\"method\":\"eth_sendRawTransaction\"} [object Object]",
+          "rpc": {
+            "code": -32603,
+            "message": "[object Object]",
+            "data": {
+              "message": "the tx doesn't have the correct nonce. account has nonce of: 5 tx has nonce of: 4",
+              "code": -32000,
+              "data": {
+                "stack": "TXRejectedError: the tx doesn't have the correct nonce. account has nonce of: 5 tx has nonce of: 4\n    at validateNonce (C:\\Program Files\\WindowsApps\\GanacheUI_2.3.0.0_x64__5dg5pnz03psnj\\app\\resources\\static\\node\\node_modules\\ganache-core\\lib\\statemanager.js:1009:11)\n    at C:\\Program Files\\WindowsApps\\GanacheUI_2.3.0.0_x64__5dg5pnz03psnj\\app\\resources\\static\\node\\node_modules\\ganache-core\\lib\\statemanager.js:1018:7\n    at C:\\Program Files\\WindowsApps\\GanacheUI_2.3.0.0_x64__5dg5pnz03psnj\\app\\resources\\static\\node\\node_modules\\ganache-core\\lib\\blockchain_double.js:449:5\n    at C:\\Program Files\\WindowsApps\\GanacheUI_2.3.0.0_x64__5dg5pnz03psnj\\app\\resources\\static\\node\\node_modules\\ganache-core\\node_modules\\merkle-patricia-tree\\baseTrie.js:77:5\n    at C:\\Program Files\\WindowsApps\\GanacheUI_2.3.0.0_x64__5dg5pnz03psnj\\app\\resources\\static\\node\\node_modules\\ganache-core\\node_modules\\merkle-patricia-tree\\baseTrie.js:461:14\n    at Object.return (C:\\Program Files\\WindowsApps\\GanacheUI_2.3.0.0_x64__5dg5pnz03psnj\\app\\resources\\static\\node\\node_modules\\ganache-core\\node_modules\\merkle-patricia-tree\\baseTrie.js:485:9)\n    at processNode (C:\\Program Files\\WindowsApps\\GanacheUI_2.3.0.0_x64__5dg5pnz03psnj\\app\\resources\\static\\node\\node_modules\\ganache-core\\node_modules\\merkle-patricia-tree\\baseTrie.js:285:30)\n    at processNode (C:\\Program Files\\WindowsApps\\GanacheUI_2.3.0.0_x64__5dg5pnz03psnj\\app\\resources\\static\\node\\node_modules\\ganache-core\\node_modules\\merkle-patricia-tree\\baseTrie.js:521:5)\n    at C:\\Program Files\\WindowsApps\\GanacheUI_2.3.0.0_x64__5dg5pnz03psnj\\app\\resources\\static\\node\\node_modules\\ganache-core\\node_modules\\merkle-patricia-tree\\baseTrie.js:516:13\n    at C:\\Program Files\\WindowsApps\\GanacheUI_2.3.0.0_x64__5dg5pnz03psnj\\app\\resources\\static\\node\\node_modules\\ganache-core\\node_modules\\merkle-patricia-tree\\baseTrie.js:180:7\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)",
+                "name": "TXRejectedError"
+              }
+            },
+            "stack": "Error: [object Object]\n    at a (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1188007)\n    at Object.internal (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1188293)\n    at f (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1209307)\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1208518"
+          },
+          "stack": "Error: [ethjs-rpc] rpc error with payload {\"id\":7845998572069,\"jsonrpc\":\"2.0\",\"params\":[\"0xf8ce048504a817c8008716afebad75fa8094d836d6ec69faa5dd27b1bb7d047c553959e2166380b864ed476bb800000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001337a0ee9079dc6499cc73b92055822d02357c1c9a6c79b075eb06ac0cd5a254babd09a01ea0ce1e363c5669a8a27a8cb35656e25b8601b549e80b85571a2a80c30b0da5\"],\"method\":\"eth_sendRawTransaction\"} [object Object]\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1458085\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1942645\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1914146\n    at i (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1932650)\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917050\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1914146\n    at u (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917338)\n    at c (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917256)\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917050\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1914146\n    at u (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917338)\n    at c (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917256)\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1917050\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:1941647\n    at chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:2386698\n    at m.run (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:2156003)\n    at p (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/background.js:1:2155497)"
+        }
+      }
+    ],
+    "cachedBalances": {
+      "1": {
+        "0xfe9a68aae0bde13caea59ccf67040e37ccdc6974": "0x0"
+      },
+      "3": {
+        "0x13ae0e17bb292fdbf98e8fff3c44fcf90724cbe9": "0x0",
+        "0x379796696f733c510d550ca98a9198ede5b05ee1": "0x0",
+        "0x60308b21fb97b683e05974ebdb8861d8d220dfc6": "0x0",
+        "0x967132dcb7cb92ed41522848f79f3b93322a617a": "0x0",
+        "0xfe9a68aae0bde13caea59ccf67040e37ccdc6974": "0x1bc09b4f6dd69000",
+        "0x1f3835487088dd5982ae2b930c8ac8641c8b0eee": "0x0"
+      },
+      "10": {
+        "0x031f1243668fa9281b0941231cc538663a2f09ec": "0x0",
+        "0x1345cc5ee5a6282ecb776352bd3ada7fb8f7644e": "0x0",
+        "0x13ae0e17bb292fdbf98e8fff3c44fcf90724cbe9": "0x0",
+        "0x1f3835487088dd5982ae2b930c8ac8641c8b0eee": "0x0",
+        "0x379796696f733c510d550ca98a9198ede5b05ee1": "0x0",
+        "0x60308b21fb97b683e05974ebdb8861d8d220dfc6": "0x0",
+        "0x75ae2063b3d4694d7eb46a248ddb4c5a3ac05133": "0x0",
+        "0x967132dcb7cb92ed41522848f79f3b93322a617a": "0x0",
+        "0xecc47dc8e3e9e19d97612a398423d64a068947e2": "0x0",
+        "0xfe9a68aae0bde13caea59ccf67040e37ccdc6974": "0x0",
+        "0xdea2731d9f820ac54c2f97a13fde08708de4d1ca": "0x0",
+        "0xe3923d3b35ac8920a7bb63f40313d5f6bc9407d9": "0x0",
+        "0x6d10d50d84b5e3f3eccfd8e515dc108a022c71a6": "0x1ed09bead87c036ecfc6080392800",
+        "0x14bef4cff91cadf7eefbf751bcf71484cdb6ad54": "0x1ed09bead87c03785ca6ac7733000"
+      },
+      "5777": {
+        "0xecc47dc8e3e9e19d97612a398423d64a068947e2": "0x1ed09bead87c0378d8e6400000000",
+        "0xfe9a68aae0bde13caea59ccf67040e37ccdc6974": "0x0"
+      },
+      "loading": {
+        "0x379796696f733c510d550ca98a9198ede5b05ee1": "0x0",
+        "0xfe9a68aae0bde13caea59ccf67040e37ccdc6974": "0x1bc09b4f6dd69000"
+      }
+    },
+    "unapprovedMsgs": {},
+    "unapprovedMsgCount": 0,
+    "unapprovedPersonalMsgs": {},
+    "unapprovedPersonalMsgCount": 0,
+    "unapprovedTypedMessages": {},
+    "unapprovedTypedMessagesCount": 0,
+    "keyringTypes": [
+      "Simple Key Pair",
+      "HD Key Tree",
+      "Trezor Hardware",
+      "Ledger Hardware"
+    ],
+    "keyrings": [
+      {
+        "type": "HD Key Tree",
+        "accounts": [
+          "0xfe9a68aae0bde13caea59ccf67040e37ccdc6974"
+        ]
+      },
+      {
+        "type": "Simple Key Pair",
+        "accounts": [
+          "0x6d10d50d84b5e3f3eccfd8e515dc108a022c71a6"
+        ]
+      },
+      {
+        "type": "Simple Key Pair",
+        "accounts": [
+          "0x14bef4cff91cadf7eefbf751bcf71484cdb6ad54"
+        ]
+      }
+    ],
+    "frequentRpcListDetail": [
+      {
+        "chainId": "10",
+        "nickname": "ganache",
+        "rpcPrefs": {},
+        "rpcUrl": "HTTP://127.0.0.1:7545",
+        "ticker": "ETH"
+      }
+    ],
+    "currentAccountTab": "history",
+    "accountTokens": {
+      "0xfe9a68aae0bde13caea59ccf67040e37ccdc6974": {
+        "mainnet": [],
+        "ropsten": [],
+        "rpc": []
+      },
+      "0x6d10d50d84b5e3f3eccfd8e515dc108a022c71a6": {
+        "rpc": []
+      },
+      "0x14bef4cff91cadf7eefbf751bcf71484cdb6ad54": {
+        "rpc": []
+      }
+    },
+    "assetImages": {},
+    "suggestedTokens": {},
+    "useNonceField": false,
+    "lostIdentities": {},
+    "forgottenPassword": false,
+    "migratedPrivacyMode": false,
+    "metaMetricsId": "0x467f19fe2e1b60160c2dcf536860e3b1ed59b7cb3e9c1d95a86a1316a3842f0e",
+    "selectedAddress": "0x14bef4cff91cadf7eefbf751bcf71484cdb6ad54",
+    "recentBlocks": [
+      {
+        "number": "0x0",
+        "hash": "0x41313f2a0bcc2441e0cee8bb12411ec80ac84ed8970c48f5af366930d6198218",
+        "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "nonce": "0x0000000000000000",
+        "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "transactionsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+        "stateRoot": "0x3ceb283dcb2051cc92fdafbce53e81597f3de8fb609d15d25a2197ea51a8c6fd",
+        "receiptsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+        "miner": "0x0000000000000000000000000000000000000000",
+        "difficulty": "0x0",
+        "totalDifficulty": "0x0",
+        "extraData": "0x",
+        "size": "0x3e8",
+        "gasLimit": "0x17e199c4106600",
+        "gasUsed": "0x0",
+        "timestamp": "0x5edc835f",
+        "uncles": [],
+        "gasPrices": []
+      },
+      {
+        "number": "0x4",
+        "hash": "0x199085ffd6dd91babcdab241461f66e04dc7f7c966e6ddd64420901ca29a6817",
+        "parentHash": "0x6f4d9a820f989ce43f536680e4a458f895c42dd345c6c8e7993a2a5acc19dd7c",
+        "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "nonce": "0x0000000000000000",
+        "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "transactionsRoot": "0x1871ea3eb51a015b26441454910f9bdf7ae93af81f1d426a7efe0c91a96b8f12",
+        "stateRoot": "0xb7a14ee3e8d12f07b47420d118d5fea08d5de0244028ea8156202a0ec99b6a12",
+        "receiptsRoot": "0xdef670dac8c34b12f37764a9f37a10153f2b55c5b598be9b6d0b7485403b3121",
+        "miner": "0x0000000000000000000000000000000000000000",
+        "difficulty": "0x0",
+        "totalDifficulty": "0x0",
+        "extraData": "0x",
+        "size": "0x3e8",
+        "gasLimit": "0x17e199c4106600",
+        "gasUsed": "0x6acd",
+        "timestamp": "0x5edc89c0",
+        "uncles": [],
+        "gasPrices": [
+          "0x4a817c800"
+        ]
+      }
+    ],
+    "conversionDate": 1591521762.964,
+    "conversionRate": 241.75,
+    "currentCurrency": "usd",
+    "nativeCurrency": "ETH",
+    "shapeShiftTxList": [],
+    "infuraNetworkStatus": {
+      "mainnet": "ok",
+      "ropsten": "ok",
+      "kovan": "ok",
+      "rinkeby": "ok"
+    },
+    "seedPhraseBackedUp": true,
+    "approvedOrigins": {
+      "faucet.metamask.io": {
+        "hostname": "faucet.metamask.io",
+        "siteImage": null,
+        "siteTitle": "Test Ether Faucet"
+      },
+      "localhost": {
+        "hostname": "localhost",
+        "siteImage": null,
+        "siteTitle": "Pete's Pet Shop"
+      },
+      "remix.ethereum.org": {
+        "hostname": "remix.ethereum.org",
+        "siteImage": "http://remix.ethereum.org/icon.png",
+        "siteTitle": "Remix - Ethereum IDE"
+      }
+    },
+    "providerRequests": [],
+    "incomingTransactions": {
+      "0x510d08305d0f8416c38c8403bc9e45ef00d8b52c74599e1965c3ffe800e7f262": {
+        "blockNumber": "7715561",
+        "hash": "0x510d08305d0f8416c38c8403bc9e45ef00d8b52c74599e1965c3ffe800e7f262",
+        "id": 8503327104486791,
+        "metamaskNetworkId": "3",
+        "status": "confirmed",
+        "time": 1586869137000,
+        "transactionCategory": "incoming",
+        "txParams": {
+          "from": "0x81b7e08f65bdf5648606c89998a9cc8164397647",
+          "gas": "0x5208",
+          "gasPrice": "0x186a0",
+          "nonce": "0x1d8badd",
+          "to": "0xfe9a68aae0bde13caea59ccf67040e37ccdc6974",
+          "value": "0xde0b6b3a7640000"
+        }
+      },
+      "0x6782495755166a5077071b7ed6227e86a72204d1804a8e4547da5040c69b6dff": {
+        "blockNumber": "7715634",
+        "hash": "0x6782495755166a5077071b7ed6227e86a72204d1804a8e4547da5040c69b6dff",
+        "id": 8503327104486798,
+        "metamaskNetworkId": "3",
+        "status": "confirmed",
+        "time": 1586870382000,
+        "transactionCategory": "incoming",
+        "txParams": {
+          "from": "0x81b7e08f65bdf5648606c89998a9cc8164397647",
+          "gas": "0x5208",
+          "gasPrice": "0x186a0",
+          "nonce": "0x1d8bcad",
+          "to": "0xfe9a68aae0bde13caea59ccf67040e37ccdc6974",
+          "value": "0xde0b6b3a7640000"
+        }
+      },
+      "0x6ff72463336d205a8f9a64d48c279acd1a5098d3ba0d95ed670ccc676c5377e9": {
+        "blockNumber": "7715561",
+        "hash": "0x6ff72463336d205a8f9a64d48c279acd1a5098d3ba0d95ed670ccc676c5377e9",
+        "id": 8503327104486792,
+        "metamaskNetworkId": "3",
+        "status": "confirmed",
+        "time": 1586869137000,
+        "transactionCategory": "incoming",
+        "txParams": {
+          "from": "0x81b7e08f65bdf5648606c89998a9cc8164397647",
+          "gas": "0x5208",
+          "gasPrice": "0x186a0",
+          "nonce": "0x1d8baea",
+          "to": "0xfe9a68aae0bde13caea59ccf67040e37ccdc6974",
+          "value": "0xde0b6b3a7640000"
+        }
+      },
+      "0xb7e622aae587b382eabe4037b0273852bef1def8fa10922256411bb77b0fa48e": {
+        "blockNumber": "7715634",
+        "hash": "0xb7e622aae587b382eabe4037b0273852bef1def8fa10922256411bb77b0fa48e",
+        "id": 8503327104486797,
+        "metamaskNetworkId": "3",
+        "status": "confirmed",
+        "time": 1586870382000,
+        "transactionCategory": "incoming",
+        "txParams": {
+          "from": "0x81b7e08f65bdf5648606c89998a9cc8164397647",
+          "gas": "0x5208",
+          "gasPrice": "0x186a0",
+          "nonce": "0x1d8bcac",
+          "to": "0xfe9a68aae0bde13caea59ccf67040e37ccdc6974",
+          "value": "0xde0b6b3a7640000"
+        }
+      }
+    },
+    "incomingTxLastFetchedBlocksByNetwork": {
+      "goerli": null,
+      "kovan": null,
+      "mainnet": 9870609,
+      "rinkeby": null,
+      "ropsten": 7715734,
+      "rpc": 114
+    },
+    "threeBoxSyncingAllowed": false,
+    "showRestorePrompt": true,
+    "threeBoxLastUpdated": 0,
+    "threeBoxAddress": null,
+    "threeBoxSynced": false,
+    "threeBoxDisabled": false,
+    "abTests": {
+      "fullScreenVsPopup": "fullScreen"
+    },
+    "ensResolutionsByAddress": {}
+  },
+  "appState": {
+    "shouldClose": false,
+    "menuOpen": false,
+    "modal": {
+      "open": false,
+      "modalState": {
+        "name": null,
+        "props": {}
+      },
+      "previousModalState": {
+        "name": null
+      }
+    },
+    "sidebar": {
+      "isOpen": false,
+      "transitionName": "",
+      "type": "",
+      "props": {}
+    },
+    "alertOpen": false,
+    "alertMessage": null,
+    "qrCodeData": null,
+    "networkDropdownOpen": false,
+    "currentView": {
+      "name": "accountDetail",
+      "detailView": null,
+      "context": "0x14bef4cff91cadf7eefbf751bcf71484cdb6ad54"
+    },
+    "accountDetail": {
+      "subview": "transactions"
+    },
+    "transForward": true,
+    "isLoading": false,
+    "warning": null,
+    "buyView": {},
+    "isMouseUser": true,
+    "gasIsLoading": false,
+    "networkNonce": "0x5",
+    "defaultHdPaths": {
+      "trezor": "m/44'/60'/0'/0",
+      "ledger": "m/44'/60'/0'/0/0"
+    },
+    "lastSelectedProvider": null,
+    "networksTabSelectedRpcUrl": "",
+    "networksTabIsInAddMode": false,
+    "loadingMethodData": false,
+    "show3BoxModalAfterImport": false,
+    "threeBoxLastUpdated": null
+  },
+  "localeMessages": {
+    "current": {
+      "about": {
+        "message": "关于"
+      },
+      "aboutSettingsDescription": {
+        "message": "版本、技术支持中心和联系方式。"
+      },
+      "acceleratingATransaction": {
+        "message": "* 设定更高天燃气价格，加快交易完成进度，提高网络快速处理机率，但无法保证每次均能够实现提速。"
+      },
+      "accessingYourCamera": {
+        "message": "正在获取相机使用权限..."
+      },
+      "account": {
+        "message": "账户"
+      },
+      "accountDetails": {
+        "message": "账户详情"
+      },
+      "accountName": {
+        "message": "账户名称"
+      },
+      "accountOptions": {
+        "message": "账户选项"
+      },
+      "accountSelectionRequired": {
+        "message": "您需要选择一个账户 ！"
+      },
+      "activityLog": {
+        "message": "活动日志"
+      },
+      "addAcquiredTokens": {
+        "message": "在Metamask上添加已用的代币"
+      },
+      "addAlias": {
+        "message": "添加别名"
+      },
+      "addNetwork": {
+        "message": "添加网络"
+      },
+      "addRecipient": {
+        "message": "添加收件人"
+      },
+      "addSuggestedTokens": {
+        "message": "添加推荐代币"
+      },
+      "addToAddressBook": {
+        "message": "添加地址簿"
+      },
+      "addToAddressBookModalPlaceholder": {
+        "message": "如：John D."
+      },
+      "addToken": {
+        "message": "添加代币"
+      },
+      "addTokens": {
+        "message": "添加代币"
+      },
+      "advanced": {
+        "message": "高级"
+      },
+      "advancedOptions": {
+        "message": "高级选项"
+      },
+      "advancedSettingsDescription": {
+        "message": "访问开发者功能，下载状态日志，重置账户，安排测试网络和自定义 RPC 。"
+      },
+      "amount": {
+        "message": "数量"
+      },
+      "appDescription": {
+        "description": "The description of the application",
+        "message": "以太坊浏览器插件"
+      },
+      "appName": {
+        "description": "The name of the application",
+        "message": "MetaMask"
+      },
+      "approve": {
+        "message": "批准"
+      },
+      "approved": {
+        "message": "批准"
+      },
+      "asset": {
+        "message": "资产"
+      },
+      "attemptToCancel": {
+        "message": "想要取消吗？"
+      },
+      "attemptToCancelDescription": {
+        "message": "确认提交该操作无法保证能够成功取消您的原始交易。如果取消成功，您将被收取上述交易费用。"
+      },
+      "attemptingConnect": {
+        "message": "正在尝试连接区块链。"
+      },
+      "attributions": {
+        "message": "来源"
+      },
+      "autoLogoutTimeLimit": {
+        "message": "自动注销计时器（分钟）"
+      },
+      "autoLogoutTimeLimitDescription": {
+        "message": "请设置 MetaMask 自动注销前的空闲时间（以分钟为单位）"
+      },
+      "average": {
+        "message": "平均值"
+      },
+      "back": {
+        "message": "返回"
+      },
+      "backToAll": {
+        "message": "恢复所有设置"
+      },
+      "backupApprovalInfo": {
+        "message": "如果不慎丢失个人设备，忘记密码，或者需要重新安装 MetaMask，亦或是需在另一台设备上打开钱包，请使用该保密码恢复个人钱包数据。"
+      },
+      "backupApprovalNotice": {
+        "message": "请备份您的私密恢复代码，保证个人钱包和资金安全。"
+      },
+      "backupNow": {
+        "message": "立即备份"
+      },
+      "balance": {
+        "message": "余额："
+      },
+      "balanceIsInsufficientGas": {
+        "message": "当前余额不足以支付 Gas"
+      },
+      "balanceOutdated": {
+        "message": "余额可能已过期"
+      },
+      "basic": {
+        "message": "基本"
+      },
+      "betweenMinAndMax": {
+        "description": "helper for inputting hex as decimal input",
+        "message": "必须大于等于 $1 并且小于等于 $2 。"
+      },
+      "blockExplorerUrl": {
+        "message": "屏蔽管理器"
+      },
+      "blockExplorerView": {
+        "description": "$1 replaced by URL for custom block explorer",
+        "message": "通过 $1 查看账户"
+      },
+      "blockiesIdenticon": {
+        "message": "使用区块Identicon"
+      },
+      "browserNotSupported": {
+        "message": "您的浏览器不支持该功能…"
+      },
+      "builtInCalifornia": {
+        "message": "MetaMask在加利福尼亚设计和制造。"
+      },
+      "buyCoinSwitch": {
+        "message": "在CoinSwitch上购买"
+      },
+      "buyCoinSwitchExplainer": {
+        "message": "CoinSwitch是以最优惠的价格交换超过300种加密货币的一站式目的地。"
+      },
+      "buyWithWyre": {
+        "message": "使用 Wyre 购买 ETH"
+      },
+      "buyWithWyreDescription": {
+        "message": "您可以通过 Wyre 使用信用卡将 ETH 存入您的 MetaMask 账户。"
+      },
+      "bytes": {
+        "message": "字节"
+      },
+      "cancel": {
+        "message": "取消"
+      },
+      "cancelAttempt": {
+        "message": "取消操作"
+      },
+      "cancellationGasFee": {
+        "message": "取消天然气费"
+      },
+      "cancelled": {
+        "message": "已取消"
+      },
+      "chainId": {
+        "message": "链 ID"
+      },
+      "chartOnlyAvailableEth": {
+        "message": "聊天功能仅对以太坊网络开放。"
+      },
+      "chromeRequiredForHardwareWallets": {
+        "message": "您需要通过 Google Chrome 浏览器使用 MetaMask ，连接个人硬件钱包。"
+      },
+      "clearApprovalData": {
+        "message": "清除批准数据"
+      },
+      "clickToAdd": {
+        "message": "点击 $1 将其加入您的个人账户"
+      },
+      "clickToRevealSeed": {
+        "message": "点击此处显示密语"
+      },
+      "close": {
+        "message": "关闭"
+      },
+      "confirm": {
+        "message": "确认"
+      },
+      "confirmClear": {
+        "message": "您确定要清除已批准的网站吗？"
+      },
+      "confirmPassword": {
+        "message": "确认密码"
+      },
+      "confirmSecretBackupPhrase": {
+        "message": "请确认您的私密备份密语"
+      },
+      "confirmed": {
+        "message": "确认"
+      },
+      "congratulations": {
+        "message": "恭喜"
+      },
+      "connect": {
+        "message": "连接"
+      },
+      "connectHardwareWallet": {
+        "message": "链接硬件钱包"
+      },
+      "connectRequest": {
+        "message": "关联请求"
+      },
+      "connectingTo": {
+        "message": "正在连接 $1"
+      },
+      "connectingToGoerli": {
+        "message": "正在连接 Goerli 测试网络"
+      },
+      "connectingToKovan": {
+        "message": "正在连接到Kovan测试网络"
+      },
+      "connectingToLocalhost": {
+        "message": "正在连接 Localhost 8545"
+      },
+      "connectingToMainnet": {
+        "message": "正在连接到以太坊主网"
+      },
+      "connectingToRinkeby": {
+        "message": "正在连接到Rinkeby测试网络"
+      },
+      "connectingToRopsten": {
+        "message": "正在连接到Ropsten测试网络"
+      },
+      "continueToCoinSwitch": {
+        "message": "继续访问 CoinSwitch"
+      },
+      "continueToWyre": {
+        "message": "继续前往 Wyre"
+      },
+      "contractDeployment": {
+        "message": "合约部署"
+      },
+      "contractInteraction": {
+        "message": "合约交互"
+      },
+      "conversionProgress": {
+        "message": "正在进行转换"
+      },
+      "copiedButton": {
+        "message": "已复制"
+      },
+      "copiedExclamation": {
+        "message": "已复制"
+      },
+      "copiedTransactionId": {
+        "message": "交易 ID 复制成功"
+      },
+      "copy": {
+        "message": "复制"
+      },
+      "copyAddress": {
+        "message": "将地址复制到剪贴板"
+      },
+      "copyButton": {
+        "message": " 复制 "
+      },
+      "copyPrivateKey": {
+        "message": "这是你的私钥（点击复制）"
+      },
+      "copyToClipboard": {
+        "message": "复制到剪贴板"
+      },
+      "copyTransactionId": {
+        "message": "复制交易 ID"
+      },
+      "create": {
+        "message": "创建"
+      },
+      "createAWallet": {
+        "message": "创建钱包"
+      },
+      "createAccount": {
+        "message": "创建账户"
+      },
+      "createPassword": {
+        "message": "创建密码"
+      },
+      "currencyConversion": {
+        "message": "货币兑换"
+      },
+      "currentLanguage": {
+        "message": "当前语言"
+      },
+      "customGas": {
+        "message": "自定义 Gas"
+      },
+      "customGasSubTitle": {
+        "message": "提升费用可能会缩短处理时间，但不保证绝对有效。"
+      },
+      "customRPC": {
+        "message": "自定义 RPC"
+      },
+      "customToken": {
+        "message": "自定义代币"
+      },
+      "decimal": {
+        "message": "精确小数点"
+      },
+      "decimalsMustZerotoTen": {
+        "message": "小数位最小为0并且不超过36位."
+      },
+      "defaultNetwork": {
+        "message": "默认以太坊交易网络为主网。"
+      },
+      "delete": {
+        "message": "删除"
+      },
+      "deleteAccount": {
+        "message": "删除账户"
+      },
+      "deleteNetwork": {
+        "message": "是否删除网络？"
+      },
+      "deleteNetworkDescription": {
+        "message": "您是否确认要删除该网络？"
+      },
+      "deposit": {
+        "message": "存入"
+      },
+      "depositEther": {
+        "message": "存入 Ether"
+      },
+      "details": {
+        "message": "详情"
+      },
+      "directDepositEther": {
+        "message": "直接存入 Ether"
+      },
+      "directDepositEtherExplainer": {
+        "message": "如果你已经有了一些 Ether，通过直接转入是你的新钱包获取 Ether 的最快捷方式。"
+      },
+      "dismiss": {
+        "message": "关闭"
+      },
+      "done": {
+        "message": "完成"
+      },
+      "dontHaveAHardwareWallet": {
+        "message": "没有硬件钱包？"
+      },
+      "downloadGoogleChrome": {
+        "message": "下载 Google Chrome 浏览器"
+      },
+      "downloadSecretBackup": {
+        "message": "下载私密备份密语，并使用外部加密硬盘或存储媒介妥善保管。"
+      },
+      "downloadStateLogs": {
+        "message": "下载日志"
+      },
+      "dropped": {
+        "message": "丢弃"
+      },
+      "edit": {
+        "message": "编辑"
+      },
+      "editContact": {
+        "message": "编辑联系人"
+      },
+      "emailUs": {
+        "message": "联系我们"
+      },
+      "endOfFlowMessage1": {
+        "message": "您已通过测试 - 请妥善保管你的种子密语。这是您的责任！"
+      },
+      "endOfFlowMessage10": {
+        "message": "全部完成"
+      },
+      "endOfFlowMessage2": {
+        "message": "安全保存小技巧"
+      },
+      "endOfFlowMessage3": {
+        "message": "在多处保存备份数据。"
+      },
+      "endOfFlowMessage4": {
+        "message": "绝不向任何分享该密语。"
+      },
+      "endOfFlowMessage5": {
+        "message": "谨防网络钓鱼！MetaMask 绝不会主动要求您提供个人种子密语。"
+      },
+      "endOfFlowMessage6": {
+        "message": "如果您需要再次备份个人种子密语，请通过设置 -> 安全选项完成该操作。"
+      },
+      "endOfFlowMessage7": {
+        "message": "如果您仍存有疑问或发现任何可疑的地方，请发送电子邮件至 support@metamask.io 进行咨询。"
+      },
+      "endOfFlowMessage8": {
+        "message": "MetaMask 无法恢复您的种子密语。了解更多。"
+      },
+      "endOfFlowMessage9": {
+        "message": "了解详情。"
+      },
+      "ensNotFoundOnCurrentNetwork": {
+        "message": "未在当前网络找到 ENS 名称。请尝试切换至主以太坊网络。"
+      },
+      "ensRegistrationError": {
+        "message": "ENS 名称登记错误"
+      },
+      "enterAnAlias": {
+        "message": "输入别名"
+      },
+      "enterPassword": {
+        "message": "请输入密码"
+      },
+      "enterPasswordContinue": {
+        "message": "请输入密码以继续"
+      },
+      "estimatedProcessingTimes": {
+        "message": "预估处理时间"
+      },
+      "ethereumPublicAddress": {
+        "message": "以太坊公共地址"
+      },
+      "etherscanView": {
+        "message": "在 Etherscan 上查看账户"
+      },
+      "expandView": {
+        "message": "展开视图"
+      },
+      "exportPrivateKey": {
+        "message": "导出私钥"
+      },
+      "failed": {
+        "message": "失败"
+      },
+      "fast": {
+        "message": "快"
+      },
+      "faster": {
+        "message": "快捷操作"
+      },
+      "fiat": {
+        "description": "Exchange type",
+        "message": "FIAT"
+      },
+      "fileImportFail": {
+        "description": "Helps user import their account from a JSON file",
+        "message": "文件导入失败？ 点击这里！"
+      },
+      "forgetDevice": {
+        "message": "取消保存此设备"
+      },
+      "from": {
+        "message": "来自"
+      },
+      "fromShapeShift": {
+        "message": "来自 ShapeShift"
+      },
+      "functionType": {
+        "message": "功能类型"
+      },
+      "gasLimitCalculation": {
+        "message": "我们根据网络成功率计算建议的 Gas Limit。"
+      },
+      "gasLimitInfoModalContent": {
+        "message": "天然气限制即您个人希望购买的最大单位数量。"
+      },
+      "gasLimitTooLow": {
+        "message": "Gas Limit 至少要 21000"
+      },
+      "gasPriceCalculation": {
+        "message": "我们根据网络成功率计算建议的 Gas Price"
+      },
+      "gasPriceExtremelyLow": {
+        "message": "天然气价格极低"
+      },
+      "gasPriceInfoModalContent": {
+        "message": "天然气价格将详细列明每个付费天然气单位的以太币金额。"
+      },
+      "gasPriceNoDenom": {
+        "message": "天然气价格"
+      },
+      "gasUsed": {
+        "message": "已使用天然气量"
+      },
+      "general": {
+        "message": "通用"
+      },
+      "generalSettingsDescription": {
+        "message": "货币兑换、主要货币、语言和块状身份头像"
+      },
+      "getEther": {
+        "message": "获取 Ether"
+      },
+      "getEtherFromFaucet": {
+        "description": "Displays network name for Ether faucet",
+        "message": "从水管获取$1网络的 Ether"
+      },
+      "getHelp": {
+        "message": "获取帮助。"
+      },
+      "getStarted": {
+        "message": "开始使用"
+      },
+      "goerli": {
+        "message": "Goerli 测试网络"
+      },
+      "greaterThanMin": {
+        "description": "helper for inputting hex as decimal input",
+        "message": "必须要大于等于 $1。"
+      },
+      "happyToSeeYou": {
+        "message": "我们很高兴与您见面。"
+      },
+      "hardware": {
+        "message": "硬件"
+      },
+      "hardwareWalletConnected": {
+        "message": "已连接硬件钱包"
+      },
+      "hardwareWallets": {
+        "message": "连接硬件钱包"
+      },
+      "hardwareWalletsMsg": {
+        "message": "请选择希望用于 MetaMask 的硬件钱包"
+      },
+      "havingTroubleConnecting": {
+        "message": "连接出现问题？"
+      },
+      "here": {
+        "description": "as in -click here- for more information (goes with troubleTokenBalances)",
+        "message": "这里"
+      },
+      "hexData": {
+        "message": "十六进制数据"
+      },
+      "hide": {
+        "message": "隐藏"
+      },
+      "hideToken": {
+        "message": "隐藏代币"
+      },
+      "hideTokenPrompt": {
+        "message": "隐藏代币？"
+      },
+      "history": {
+        "message": "历史记录"
+      },
+      "import": {
+        "description": "Button to import an account from a selected file",
+        "message": "导入"
+      },
+      "importAccount": {
+        "message": "导入账户"
+      },
+      "importAccountSeedPhrase": {
+        "message": "使用种子密语导入账户"
+      },
+      "importUsingSeed": {
+        "message": "使用帐号种子密语导入"
+      },
+      "importWallet": {
+        "message": "导入钱包"
+      },
+      "importYourExisting": {
+        "message": "请使用 12 字种子密语导入现有钱包"
+      },
+      "imported": {
+        "description": "status showing that an account has been fully loaded into the keyring",
+        "message": "已导入"
+      },
+      "infoHelp": {
+        "message": "信息 & 帮助"
+      },
+      "initialTransactionConfirmed": {
+        "message": "您的首次交易已通过网络完成确认。请点击“确定”返回。"
+      },
+      "insufficientBalance": {
+        "message": "余额不足。"
+      },
+      "insufficientFunds": {
+        "message": "余额不足."
+      },
+      "insufficientTokens": {
+        "message": "代币余额不足."
+      },
+      "invalidAddress": {
+        "message": "无效地址"
+      },
+      "invalidAddressRecipient": {
+        "message": "收款地址不合法"
+      },
+      "invalidAddressRecipientNotEthNetwork": {
+        "message": "非 ETH 网络，设置为小写"
+      },
+      "invalidBlockExplorerURL": {
+        "message": "无效 Block Explorer URI"
+      },
+      "invalidInput": {
+        "message": "无效输入."
+      },
+      "invalidRPC": {
+        "message": "无效 RPC URI"
+      },
+      "invalidSeedPhrase": {
+        "message": "无效种子密语"
+      },
+      "jsonFile": {
+        "description": "format for importing an account",
+        "message": "JSON 文件"
+      },
+      "knownAddressRecipient": {
+        "message": "已知联系人地址。"
+      },
+      "kovan": {
+        "message": "Kovan 测试网络"
+      },
+      "learnMore": {
+        "message": "查看更多."
+      },
+      "ledgerAccountRestriction": {
+        "message": "请在新增账户前，确认添加上一个账户。"
+      },
+      "lessThanMax": {
+        "description": "helper for inputting hex as decimal input",
+        "message": "必须小于或等于 $1."
+      },
+      "letsGoSetUp": {
+        "message": "是的。立即开始设置！"
+      },
+      "likeToAddTokens": {
+        "message": "你想添加这些代币吗？"
+      },
+      "links": {
+        "message": "链接"
+      },
+      "liveGasPricePredictions": {
+        "message": "实时天然气价格预测"
+      },
+      "loadMore": {
+        "message": "加载更多"
+      },
+      "loading": {
+        "message": "加载中..."
+      },
+      "loadingTokens": {
+        "message": "加载代币中..."
+      },
+      "login": {
+        "message": "登录"
+      },
+      "logout": {
+        "message": "登出"
+      },
+      "mainnet": {
+        "message": "以太坊主网络"
+      },
+      "max": {
+        "message": "最大"
+      },
+      "memo": {
+        "message": "备忘录"
+      },
+      "memorizePhrase": {
+        "message": "记住该密语。"
+      },
+      "menu": {
+        "message": "菜单"
+      },
+      "message": {
+        "message": "消息"
+      },
+      "metamaskDescription": {
+        "message": "MetaMask is a secure identity vault for Ethereum."
+      },
+      "metamaskSeedWords": {
+        "message": "MetaMask 助记词"
+      },
+      "metamaskVersion": {
+        "message": "MetaMask 版本"
+      },
+      "missingYourTokens": {
+        "message": "无法看到您的代币？"
+      },
+      "mobileSyncText": {
+        "message": "请输入密码确认个人身份！"
+      },
+      "mustSelectOne": {
+        "message": "至少选择一种代币."
+      },
+      "myWalletAccounts": {
+        "message": "我的钱包账户"
+      },
+      "myWalletAccountsDescription": {
+        "message": "所有已创建的 MetaMask 账户将自动添加到该部分。"
+      },
+      "needEtherInWallet": {
+        "message": "使用 MetaMask 与 DAPP 交互，需要你的钱包里有 Ether。"
+      },
+      "needImportFile": {
+        "description": "User is important an account and needs to add a file to continue",
+        "message": "必须选择导入一个文件。"
+      },
+      "networkName": {
+        "message": "网络名称"
+      },
+      "networkSettingsDescription": {
+        "message": "添加和编辑自定义 RPC 网络"
+      },
+      "networks": {
+        "message": "网络"
+      },
+      "nevermind": {
+        "message": "无所谓"
+      },
+      "newAccount": {
+        "message": "新账户"
+      },
+      "newAccountDetectedDialogMessage": {
+        "message": "检测到新地址！请点击此处添加至您的地址簿。"
+      },
+      "newAccountNumberName": {
+        "description": "Default name of next account to be created on create account screen",
+        "message": "账户 $1"
+      },
+      "newContact": {
+        "message": "新增联系人"
+      },
+      "newContract": {
+        "message": "新合约"
+      },
+      "newNetwork": {
+        "message": "新增网络"
+      },
+      "newPassword": {
+        "message": "新密码（至少 8 个字符）"
+      },
+      "newToMetaMask": {
+        "message": "新增至 MetaMask？"
+      },
+      "newTotal": {
+        "message": "新增合计"
+      },
+      "newTransactionFee": {
+        "message": "新增交易费用"
+      },
+      "next": {
+        "message": "下一步"
+      },
+      "noAddressForName": {
+        "message": "此 ENS 名字还没有指定地址。"
+      },
+      "noAlreadyHaveSeed": {
+        "message": "不，我已经有一个种子密语了。"
+      },
+      "noConversionRateAvailable": {
+        "message": "无可用兑换率"
+      },
+      "noDeposits": {
+        "message": "没有已收的存款"
+      },
+      "noTransactions": {
+        "message": "没有交易"
+      },
+      "noWebcamFound": {
+        "message": "找不到您的个人电脑网络摄像头。请重试。"
+      },
+      "noWebcamFoundTitle": {
+        "message": "未找到网络摄像头"
+      },
+      "notEnoughGas": {
+        "message": "天然气不足"
+      },
+      "ofTextNofM": {
+        "message": "/"
+      },
+      "off": {
+        "message": "关"
+      },
+      "ok": {
+        "message": "确认"
+      },
+      "on": {
+        "message": "启用"
+      },
+      "optionalBlockExplorerUrl": {
+        "message": "屏蔽管理器 URL（选填）"
+      },
+      "optionalChainId": {
+        "message": "ChainID（选填）"
+      },
+      "optionalSymbol": {
+        "message": "符号（选填）"
+      },
+      "orderOneHere": {
+        "message": "订购 Trezor 或 Ledger ，将个人资金进行冷存储"
+      },
+      "origin": {
+        "message": "来源"
+      },
+      "parameters": {
+        "message": "参数"
+      },
+      "participateInMetaMetrics": {
+        "message": "加入 MetaMetrics"
+      },
+      "participateInMetaMetricsDescription": {
+        "message": "加入 MetaMetrics ，帮助我们改善 MetaMask 服务"
+      },
+      "password": {
+        "message": "密码"
+      },
+      "passwordNotLongEnough": {
+        "message": "密码长度不足"
+      },
+      "passwordsDontMatch": {
+        "message": "密码不匹配"
+      },
+      "pastePrivateKey": {
+        "description": "For importing an account from a private key",
+        "message": "请粘贴你的私钥:"
+      },
+      "pasteSeed": {
+        "message": "请粘贴你的助记词！"
+      },
+      "pending": {
+        "message": "待处理"
+      },
+      "personalAddressDetected": {
+        "message": "检测到个人地址。请输入代币合约地址。"
+      },
+      "prev": {
+        "message": "上一个"
+      },
+      "primaryCurrencySetting": {
+        "message": "主要货币"
+      },
+      "primaryCurrencySettingDescription": {
+        "message": "请选择“本地”，优先显示当地货币链价值（如 ETH ）。请选择“法定”，优先显示选定法定货币价值。"
+      },
+      "privacyModeDefault": {
+        "message": "现已默认启用隐私模式"
+      },
+      "privacyMsg": {
+        "message": "隐私政策"
+      },
+      "privateKey": {
+        "description": "select this type of file to use to import an account",
+        "message": "私钥"
+      },
+      "privateKeyWarning": {
+        "message": "注意：永远不要公开这个私钥。任何拥有你的私钥的人都可以窃取你帐户中的任何资产。"
+      },
+      "privateNetwork": {
+        "message": "私有网络"
+      },
+      "protectYourKeys": {
+        "message": "妥善保管您的密钥！"
+      },
+      "protectYourKeysMessage1": {
+        "message": "请注意个人种子密语安全。报告显示有多个网站企图伪造 MetaMask。MetaMask 绝不会要求您提供个人种子密语！"
+      },
+      "protectYourKeysMessage2": {
+        "message": "请妥善保管您的密语。如果您发现任何可疑的地方，或无法确认网络安全性，请发送电子邮件至 support@metamask.io 进行咨询"
+      },
+      "providerRequest": {
+        "message": "$1 希望关联您的账户"
+      },
+      "providerRequestInfo": {
+        "message": "下面列出的域正在尝试请求访问Ethereum API，以便它可以与以太坊区块链进行交互。在批准Ethereum访问之前，请务必仔细检查您是否在正确的站点上。"
+      },
+      "qrCode": {
+        "message": "显示二维码"
+      },
+      "queue": {
+        "message": "队列"
+      },
+      "readdToken": {
+        "message": "之后你还可以通过帐户选项菜单中的“添加代币”来添加此代币。"
+      },
+      "readyToConnect": {
+        "message": "是否准备连接？"
+      },
+      "recents": {
+        "message": "最近记录"
+      },
+      "recipientAddress": {
+        "message": "接收地址"
+      },
+      "recipientAddressPlaceholder": {
+        "message": "查找、公用地址 (0x) 或 ENS"
+      },
+      "reject": {
+        "message": "拒绝"
+      },
+      "rejectAll": {
+        "message": "拒绝所有"
+      },
+      "rejectTxsDescription": {
+        "message": "您将指拒绝 $1 笔交易。"
+      },
+      "rejectTxsN": {
+        "message": "拒绝 $1 笔交易"
+      },
+      "rejected": {
+        "message": "拒绝"
+      },
+      "remindMeLater": {
+        "message": "稍后提醒"
+      },
+      "remove": {
+        "message": "移除"
+      },
+      "removeAccount": {
+        "message": "移除帐号"
+      },
+      "removeAccountDescription": {
+        "message": "该账户已从您的钱包中删除。请在继续后续操作前，确认您是否已拥有该导入账户的原始种子密语或个人密钥。您可以通过账户下拉菜单再次导入或创建账户。"
+      },
+      "requestsAwaitingAcknowledgement": {
+        "message": "等待确认的请求"
+      },
+      "required": {
+        "message": "必填"
+      },
+      "reset": {
+        "message": "重置"
+      },
+      "resetAccount": {
+        "message": "重设账户"
+      },
+      "resetAccountDescription": {
+        "message": "重置账户后，将清除您的个人交易历史记录。"
+      },
+      "restore": {
+        "message": "恢复"
+      },
+      "restoreAccountWithSeed": {
+        "message": "使用种子密语恢复个人账户"
+      },
+      "restoreFromSeed": {
+        "message": "从助记词还原"
+      },
+      "revealSeedWords": {
+        "message": "显示助记词"
+      },
+      "revealSeedWordsDescription": {
+        "message": "如果您更换浏览器或计算机，则需要使用此助记词访问您的帐户。请将它们保存在安全秘密的地方。"
+      },
+      "revealSeedWordsTitle": {
+        "message": "助记词"
+      },
+      "revealSeedWordsWarning": {
+        "message": "助记词可以用来窃取您的所有帐户."
+      },
+      "revealSeedWordsWarningTitle": {
+        "message": "不要对任何人展示助记词！"
+      },
+      "revert": {
+        "message": "还原"
+      },
+      "rinkeby": {
+        "message": "Rinkeby 测试网络"
+      },
+      "ropsten": {
+        "message": "Ropsten 测试网络"
+      },
+      "rpcUrl": {
+        "message": "新增 RPC URL"
+      },
+      "save": {
+        "message": "保存"
+      },
+      "saveAsCsvFile": {
+        "message": "另存为CSV文件"
+      },
+      "scanInstructions": {
+        "message": "请将二维码置于镜头前"
+      },
+      "scanQrCode": {
+        "message": "扫描二维码"
+      },
+      "search": {
+        "message": "搜索"
+      },
+      "searchResults": {
+        "message": "搜索结果"
+      },
+      "searchTokens": {
+        "message": "搜索代币"
+      },
+      "secretBackupPhrase": {
+        "message": "私密备份密语"
+      },
+      "secretBackupPhraseDescription": {
+        "message": "您的个人私密备份密语可以帮助您轻松备份和恢复个人账户。"
+      },
+      "secretBackupPhraseWarning": {
+        "message": "警告：切勿向他人透露您的备份密语。任何人一旦持有该密语，即可取走您的以太币。"
+      },
+      "secretPhrase": {
+        "message": "输入12位助记词以恢复金库."
+      },
+      "securityAndPrivacy": {
+        "message": "安全与隐私"
+      },
+      "securitySettingsDescription": {
+        "message": "隐私设置和钱包种子密语"
+      },
+      "seedPhrasePlaceholder": {
+        "message": "用空格分隔每个单词"
+      },
+      "seedPhraseReq": {
+        "message": "助记词为12个单词"
+      },
+      "selectAHigherGasFee": {
+        "message": "请选择价格稍高的天然气费，加快交易处理速度。*"
+      },
+      "selectAnAccount": {
+        "message": "选择账户"
+      },
+      "selectAnAccountHelp": {
+        "message": "请通过 MetaMask 选择需要查看的账户"
+      },
+      "selectCurrency": {
+        "message": "选择货币"
+      },
+      "selectEachPhrase": {
+        "message": "请选择每一个片语，以确保片语正确性。"
+      },
+      "selectHdPath": {
+        "message": "选择 HD 路径"
+      },
+      "selectLocale": {
+        "message": "选择语言区域"
+      },
+      "selectPathHelp": {
+        "message": "如果下列账户中没有您当前所持有的 Ledger 账户，请将路径切换至“Legacy (MEW / MyCrypto)”"
+      },
+      "selectType": {
+        "message": "选择类型"
+      },
+      "send": {
+        "message": "发送"
+      },
+      "sendAmount": {
+        "message": "发送金额"
+      },
+      "sendETH": {
+        "message": "发送 ETH"
+      },
+      "sendTokens": {
+        "message": "发送 代币"
+      },
+      "sentEther": {
+        "message": "以太币已发送"
+      },
+      "sentTokens": {
+        "message": "代币已发送"
+      },
+      "separateEachWord": {
+        "message": "用空格分隔每个单词"
+      },
+      "settings": {
+        "message": "设置"
+      },
+      "showAdvancedGasInline": {
+        "message": "高级天然气控制"
+      },
+      "showAdvancedGasInlineDescription": {
+        "message": "请选择该选项，直接在发送和确认页面显示天然气价格和限制管理。"
+      },
+      "showFiatConversionInTestnets": {
+        "message": "在 Testnets 上显示兑换率"
+      },
+      "showFiatConversionInTestnetsDescription": {
+        "message": "请选择该选项，在 Testnets 上显示法定兑换率"
+      },
+      "showHexData": {
+        "message": "显示十六进制数据"
+      },
+      "showHexDataDescription": {
+        "message": "请选择该选项，在发送页面显示十六进制数据字域"
+      },
+      "showPrivateKeys": {
+        "message": "显示私钥"
+      },
+      "sigRequest": {
+        "message": "请求签名"
+      },
+      "sign": {
+        "message": "签名"
+      },
+      "signNotice": {
+        "message": "签署此消息可能会产生危险的副作用。 \n只从你完全信任的网站上签名。 这种危险的方法将在未来的版本中被移除。"
+      },
+      "signatureRequest": {
+        "message": "请求签名"
+      },
+      "signed": {
+        "message": "已签名"
+      },
+      "slow": {
+        "message": "慢"
+      },
+      "slower": {
+        "message": "降速"
+      },
+      "somethingWentWrong": {
+        "message": "哎呀！出问题了。"
+      },
+      "speedUp": {
+        "message": "加速"
+      },
+      "speedUpCancellation": {
+        "message": "加速该取消操作"
+      },
+      "speedUpTransaction": {
+        "message": "加速该交易操作"
+      },
+      "stateLogError": {
+        "message": "检索状态日志时出错。"
+      },
+      "stateLogs": {
+        "message": "状态日志"
+      },
+      "stateLogsDescription": {
+        "message": "状态日志包含您的账户地址和已发送的交易。"
+      },
+      "step1HardwareWallet": {
+        "message": "1. 连接硬件钱包"
+      },
+      "step1HardwareWalletMsg": {
+        "message": "直接将您的硬件钱包与个人电脑相连。"
+      },
+      "step2HardwareWallet": {
+        "message": "2. 选择账户"
+      },
+      "step2HardwareWalletMsg": {
+        "message": "请选择您想查看的账户。每次仅限选择一个。"
+      },
+      "step3HardwareWallet": {
+        "message": "3. 开始体验 dApps 和更多功能！"
+      },
+      "step3HardwareWalletMsg": {
+        "message": "使用您的硬件钱包，操作与以太坊账户制作相同。登录 dApps，发送 ETH ，购买和保存 ERC20 代币和诸如 CryptoKitties 等不可替代代币。"
+      },
+      "storePhrase": {
+        "message": "通过如 1Password 等密码管家保存该密语。"
+      },
+      "submit": {
+        "message": "提交"
+      },
+      "submitted": {
+        "message": "已提交"
+      },
+      "supportCenter": {
+        "message": "访问我们的支持中心"
+      },
+      "switchNetworks": {
+        "message": "切换网络"
+      },
+      "symbol": {
+        "message": "符号"
+      },
+      "symbolBetweenZeroTwelve": {
+        "message": "符号应该有0-12个字符."
+      },
+      "syncWithMobile": {
+        "message": "使用移动设备进行同步"
+      },
+      "syncWithMobileBeCareful": {
+        "message": "扫描编码时，请确保身边无其他人正在查看您的显示页面"
+      },
+      "syncWithMobileComplete": {
+        "message": "您的数据已同步成功。尽情体验 MetaMask 应用程序！"
+      },
+      "syncWithMobileDesc": {
+        "message": "您可以使用个人移动设备同步个人账户与信息。打开 MetaMask 移动应用程序，进入“设置”选项，点击“通过浏览器扩展程序同步”"
+      },
+      "syncWithMobileDescNewUsers": {
+        "message": "如果您是首次启用 MetaMask 移动应用程序，请通过个人手机完成如下操作。"
+      },
+      "syncWithMobileScanThisCode": {
+        "message": "使用 MetaMask 应用程序扫描编码"
+      },
+      "syncWithMobileTitle": {
+        "message": "使用移动设备进行同步"
+      },
+      "terms": {
+        "message": "使用条款"
+      },
+      "testFaucet": {
+        "message": "测试水管"
+      },
+      "thisWillCreate": {
+        "message": "该操作将为您创建新钱包和种子密语"
+      },
+      "tips": {
+        "message": "赏金"
+      },
+      "to": {
+        "message": "至"
+      },
+      "toETHviaShapeShift": {
+        "description": "system will fill in deposit type in start of message",
+        "message": "$1 ETH 通过 ShapeShift"
+      },
+      "token": {
+        "message": "代币"
+      },
+      "tokenAlreadyAdded": {
+        "message": "代币已经被添加."
+      },
+      "tokenContractAddress": {
+        "message": "代币联系人地址"
+      },
+      "tokenSymbol": {
+        "message": "代币符号"
+      },
+      "total": {
+        "message": "总量"
+      },
+      "transaction": {
+        "message": "交易"
+      },
+      "transactionCancelAttempted": {
+        "message": "在 $2 尝试取消交易，其天然气费为 $1"
+      },
+      "transactionCancelSuccess": {
+        "message": "成功在 $2 取消交易单"
+      },
+      "transactionConfirmed": {
+        "message": "交易已通过 $2 确认。"
+      },
+      "transactionCreated": {
+        "message": "在 $2 生成的交易单，其交易额为 $1 。"
+      },
+      "transactionDropped": {
+        "message": "在 $2 终止的交易单。"
+      },
+      "transactionError": {
+        "message": "交易出错. 合约代码执行异常."
+      },
+      "transactionErrorNoContract": {
+        "message": "正在尝试调用非联系人地址功能。"
+      },
+      "transactionErrored": {
+        "message": "交易报错。"
+      },
+      "transactionFee": {
+        "message": "交易费"
+      },
+      "transactionResubmitted": {
+        "message": "在 $2 重新提交的交易单，其天然气费增加至 $1"
+      },
+      "transactionSubmitted": {
+        "message": "在 $2 提交的交易单，其天然气费为 $1 。"
+      },
+      "transactionTime": {
+        "message": "交易时间"
+      },
+      "transactionUpdated": {
+        "message": "交易单已于 $2 更新。"
+      },
+      "transfer": {
+        "message": "转账"
+      },
+      "transferBetweenAccounts": {
+        "message": "在个人账户间转账"
+      },
+      "transferFrom": {
+        "message": "转出"
+      },
+      "troubleTokenBalances": {
+        "description": "Followed by a link (here) to view token balances",
+        "message": "我们无法加载您的代币余额。你可以查看它们"
+      },
+      "tryAgain": {
+        "message": "重试"
+      },
+      "typePassword": {
+        "message": "输入你的密码"
+      },
+      "unapproved": {
+        "message": "未批准"
+      },
+      "units": {
+        "message": "单位"
+      },
+      "unknown": {
+        "message": "未知"
+      },
+      "unknownCameraError": {
+        "message": "尝试获取相机使用权限时报错。请重试…"
+      },
+      "unknownCameraErrorTitle": {
+        "message": "哎呀！出问题了…"
+      },
+      "unknownNetwork": {
+        "message": "未知私有网络"
+      },
+      "unknownQrCode": {
+        "message": "错误：我们无法识别该二维码"
+      },
+      "unlock": {
+        "message": "解锁"
+      },
+      "unlockMessage": {
+        "message": "分散网络待命中"
+      },
+      "updatedWithDate": {
+        "message": "已更新 $1"
+      },
+      "usedByClients": {
+        "message": "可用于各种不同的客户端"
+      },
+      "userName": {
+        "message": "用户名"
+      },
+      "validFileImport": {
+        "message": "您必须选择一个有效的文件进行导入."
+      },
+      "viewAccount": {
+        "message": "查看账户"
+      },
+      "viewContact": {
+        "message": "查看联系人"
+      },
+      "viewOnCustomBlockExplorer": {
+        "message": "在 $1 查看"
+      },
+      "viewOnEtherscan": {
+        "message": "在 Etherscan 上查看"
+      },
+      "viewinExplorer": {
+        "message": "在管理器中查看"
+      },
+      "visitWebSite": {
+        "message": "访问我们的网站"
+      },
+      "walletSeed": {
+        "message": "钱包助记词"
+      },
+      "welcome": {
+        "message": "欢迎使用 MetaMask 测试版"
+      },
+      "welcomeBack": {
+        "message": "欢迎回来！"
+      },
+      "writePhrase": {
+        "message": "请将该密语记录在纸上，并保存在安全的地方。如果希望提升信息安全性，请将信息记录在多张纸上，并分别保存在 2 - 3 个不同的地方。"
+      },
+      "yesLetsTry": {
+        "message": "没错。不妨一试"
+      },
+      "youNeedToAllowCameraAccess": {
+        "message": "您需要开启相机访问权限，才能使用该功能。"
+      },
+      "youSign": {
+        "message": "正在签名"
+      },
+      "yourPrivateSeedPhrase": {
+        "message": "你的私有助记词"
+      },
+      "yourSigRequested": {
+        "message": "正在请求你的签名"
+      },
+      "zeroGasPriceOnSpeedUpError": {
+        "message": "天然气价格加速上涨"
+      }
+    },
+    "en": {
+      "about": {
+        "message": "About"
+      },
+      "aboutSettingsDescription": {
+        "message": "Version, support center, and contact info."
+      },
+      "acceleratingATransaction": {
+        "message": "* Accelerating a transaction by using a higher gas price increases its chances of getting processed by the network faster, but it is not always guaranteed."
+      },
+      "accessAndSpendNotice": {
+        "description": "$1 is the url of the site requesting ability to spend",
+        "message": "$1 may access and spend up to this max amount"
+      },
+      "accessingYourCamera": {
+        "message": "Accessing your camera..."
+      },
+      "account": {
+        "message": "Account"
+      },
+      "accountDetails": {
+        "message": "Account Details"
+      },
+      "accountName": {
+        "message": "Account Name"
+      },
+      "accountOptions": {
+        "message": "Account Options"
+      },
+      "accountSelectionRequired": {
+        "message": "You need to select an account!"
+      },
+      "activityLog": {
+        "message": "activity log"
+      },
+      "addAcquiredTokens": {
+        "message": "Add the tokens you've acquired using MetaMask"
+      },
+      "addAlias": {
+        "message": "Add alias"
+      },
+      "addNetwork": {
+        "message": "Add Network"
+      },
+      "addRecipient": {
+        "message": "Add Recipient"
+      },
+      "addSite": {
+        "message": "Add Site"
+      },
+      "addSiteDescription": {
+        "message": "Manually add a site to allow it access to your accounts, useful for older dapps"
+      },
+      "addSuggestedTokens": {
+        "message": "Add Suggested Tokens"
+      },
+      "addToAddressBook": {
+        "message": "Add to address book"
+      },
+      "addToAddressBookModalPlaceholder": {
+        "message": "e.g. John D."
+      },
+      "addToken": {
+        "message": "Add Token"
+      },
+      "addTokens": {
+        "message": "Add Tokens"
+      },
+      "advanced": {
+        "message": "Advanced"
+      },
+      "advancedOptions": {
+        "message": "Advanced Options"
+      },
+      "advancedSettingsDescription": {
+        "message": "Access developer features, download State Logs, Reset Account, setup testnets and custom RPC."
+      },
+      "allowOriginSpendToken": {
+        "description": "$1 is the url of the site and $2 is the symbol of the token they are requesting to spend",
+        "message": "Allow $1 to spend your $2?"
+      },
+      "allowWithdrawAndSpend": {
+        "description": "The url of the site that requested permission to 'withdraw and spend'",
+        "message": "Allow $1 to withdraw and spend up to the following amount:"
+      },
+      "amount": {
+        "message": "Amount"
+      },
+      "amountWithColon": {
+        "message": "Amount:"
+      },
+      "appDescription": {
+        "description": "The description of the application",
+        "message": "An Ethereum Wallet in your Browser"
+      },
+      "appName": {
+        "description": "The name of the application",
+        "message": "MetaMask"
+      },
+      "approve": {
+        "message": "Approve"
+      },
+      "approved": {
+        "message": "Approved"
+      },
+      "asset": {
+        "message": "Asset"
+      },
+      "attemptToCancel": {
+        "message": "Attempt to Cancel?"
+      },
+      "attemptToCancelDescription": {
+        "message": "Submitting this attempt does not guarantee your original transaction will be cancelled. If the cancellation attempt is successful, you will be charged the transaction fee above."
+      },
+      "attemptingConnect": {
+        "message": "Attempting to connect to blockchain."
+      },
+      "attributions": {
+        "message": "Attributions"
+      },
+      "autoLogoutTimeLimit": {
+        "message": "Auto-Logout Timer (minutes)"
+      },
+      "autoLogoutTimeLimitDescription": {
+        "message": "Set the idle time in minutes before MetaMask will automatically log out"
+      },
+      "average": {
+        "message": "Average"
+      },
+      "back": {
+        "message": "Back"
+      },
+      "backToAll": {
+        "message": "Back to All"
+      },
+      "backupApprovalInfo": {
+        "message": "This secret code is required to recover your wallet in case you lose your device, forget your password, have to re-install MetaMask, or want to access your wallet on another device."
+      },
+      "backupApprovalNotice": {
+        "message": "Backup your Secret Recovery code to keep your wallet and funds secure."
+      },
+      "backupNow": {
+        "message": "Backup now"
+      },
+      "balance": {
+        "message": "Balance"
+      },
+      "balanceIsInsufficientGas": {
+        "message": "Insufficient balance for current gas total"
+      },
+      "balanceOutdated": {
+        "message": "Balance may be outdated"
+      },
+      "basic": {
+        "message": "Basic"
+      },
+      "betweenMinAndMax": {
+        "description": "helper for inputting hex as decimal input",
+        "message": "must be greater than or equal to $1 and less than or equal to $2."
+      },
+      "blockExplorerUrl": {
+        "message": "Block Explorer"
+      },
+      "blockExplorerView": {
+        "description": "$1 replaced by URL for custom block explorer",
+        "message": "View account at $1"
+      },
+      "blockiesIdenticon": {
+        "message": "Use Blockies Identicon"
+      },
+      "browserNotSupported": {
+        "message": "Your Browser is not supported..."
+      },
+      "builtInCalifornia": {
+        "message": "MetaMask is designed and built in California."
+      },
+      "buyCoinSwitch": {
+        "message": "Buy on CoinSwitch"
+      },
+      "buyCoinSwitchExplainer": {
+        "message": "CoinSwitch is the one-stop destination to exchange more than 300 cryptocurrencies at the best rate."
+      },
+      "buyWithWyre": {
+        "message": "Buy ETH with Wyre"
+      },
+      "buyWithWyreDescription": {
+        "message": "Wyre lets you use a debit card to deposit ETH right in to your MetaMask account."
+      },
+      "bytes": {
+        "message": "Bytes"
+      },
+      "cancel": {
+        "message": "Cancel"
+      },
+      "cancelAttempt": {
+        "message": "Cancel Attempt"
+      },
+      "cancellationGasFee": {
+        "message": "Cancellation Gas Fee"
+      },
+      "cancelled": {
+        "message": "Cancelled"
+      },
+      "chainId": {
+        "message": "Chain ID"
+      },
+      "chartOnlyAvailableEth": {
+        "message": "Chart only available on Ethereum networks."
+      },
+      "chromeRequiredForHardwareWallets": {
+        "message": "You need to use MetaMask on Google Chrome in order to connect to your Hardware Wallet."
+      },
+      "clearApprovalData": {
+        "message": "Remove all sites"
+      },
+      "clickToAdd": {
+        "message": "Click on $1 to add them to your account"
+      },
+      "clickToRevealSeed": {
+        "message": "Click here to reveal secret words"
+      },
+      "close": {
+        "message": "Close"
+      },
+      "confirm": {
+        "message": "Confirm"
+      },
+      "confirmClear": {
+        "message": "Are you sure you want to clear approved websites?"
+      },
+      "confirmPassword": {
+        "message": "Confirm Password"
+      },
+      "confirmSecretBackupPhrase": {
+        "message": "Confirm your Secret Backup Phrase"
+      },
+      "confirmed": {
+        "message": "Confirmed"
+      },
+      "congratulations": {
+        "message": "Congratulations"
+      },
+      "connect": {
+        "message": "Connect"
+      },
+      "connectHardwareWallet": {
+        "message": "Connect Hardware Wallet"
+      },
+      "connectRequest": {
+        "message": "Connect Request"
+      },
+      "connected": {
+        "message": "Connected"
+      },
+      "connectedDescription": {
+        "message": "The list of sites allowed access to your addresses"
+      },
+      "connectingTo": {
+        "message": "Connecting to $1"
+      },
+      "connectingToGoerli": {
+        "message": "Connecting to Goerli Test Network"
+      },
+      "connectingToKovan": {
+        "message": "Connecting to Kovan Test Network"
+      },
+      "connectingToLocalhost": {
+        "message": "Connecting to Localhost 8545"
+      },
+      "connectingToMainnet": {
+        "message": "Connecting to Main Ethereum Network"
+      },
+      "connectingToRinkeby": {
+        "message": "Connecting to Rinkeby Test Network"
+      },
+      "connectingToRopsten": {
+        "message": "Connecting to Ropsten Test Network"
+      },
+      "connections": {
+        "message": "Connections"
+      },
+      "connectionsSettingsDescription": {
+        "message": "Sites allowed to read your accounts"
+      },
+      "contacts": {
+        "message": "Contacts"
+      },
+      "contactsSettingsDescription": {
+        "message": "Add, edit, remove, and manage your contacts"
+      },
+      "continueToCoinSwitch": {
+        "message": "Continue to CoinSwitch"
+      },
+      "continueToWyre": {
+        "message": "Continue to Wyre"
+      },
+      "contractDeployment": {
+        "message": "Contract Deployment"
+      },
+      "contractInteraction": {
+        "message": "Contract Interaction"
+      },
+      "conversionProgress": {
+        "message": "Conversion in progress"
+      },
+      "copiedButton": {
+        "message": "Copied"
+      },
+      "copiedExclamation": {
+        "message": "Copied!"
+      },
+      "copiedTransactionId": {
+        "message": "Copied Transaction ID"
+      },
+      "copy": {
+        "message": "Copy"
+      },
+      "copyAddress": {
+        "message": "Copy address to clipboard"
+      },
+      "copyButton": {
+        "message": " Copy "
+      },
+      "copyPrivateKey": {
+        "message": "This is your private key (click to copy)"
+      },
+      "copyToClipboard": {
+        "message": "Copy to clipboard"
+      },
+      "copyTransactionId": {
+        "message": "Copy Transaction ID"
+      },
+      "create": {
+        "message": "Create"
+      },
+      "createAWallet": {
+        "message": "Create a Wallet"
+      },
+      "createAccount": {
+        "message": "Create Account"
+      },
+      "createPassword": {
+        "message": "Create Password"
+      },
+      "currencyConversion": {
+        "message": "Currency Conversion"
+      },
+      "currentLanguage": {
+        "message": "Current Language"
+      },
+      "customGas": {
+        "message": "Customize Gas"
+      },
+      "customGasSubTitle": {
+        "message": "Increasing fee may decrease processing times, but it is not guaranteed."
+      },
+      "customRPC": {
+        "message": "Custom RPC"
+      },
+      "customSpendLimit": {
+        "message": "Custom Spend Limit"
+      },
+      "customToken": {
+        "message": "Custom Token"
+      },
+      "dataBackupFoundInfo": {
+        "message": "Some of your account data was backed up during a previous installation of MetaMask. This could include your settings, contacts and tokens. Would you like to restore this data now?"
+      },
+      "decimal": {
+        "message": "Decimals of Precision"
+      },
+      "decimalsMustZerotoTen": {
+        "message": "Decimals must be at least 0, and not over 36."
+      },
+      "defaultNetwork": {
+        "message": "The default network for Ether transactions is Main Net."
+      },
+      "delete": {
+        "message": "Delete"
+      },
+      "deleteAccount": {
+        "message": "Delete Account"
+      },
+      "deleteNetwork": {
+        "message": "Delete Network?"
+      },
+      "deleteNetworkDescription": {
+        "message": "Are you sure you want to delete this network?"
+      },
+      "deposit": {
+        "message": "Deposit"
+      },
+      "depositEther": {
+        "message": "Deposit Ether"
+      },
+      "details": {
+        "message": "Details"
+      },
+      "directDepositEther": {
+        "message": "Directly Deposit Ether"
+      },
+      "directDepositEtherExplainer": {
+        "message": "If you already have some Ether, the quickest way to get Ether in your new wallet by direct deposit."
+      },
+      "dismiss": {
+        "message": "Dismiss"
+      },
+      "done": {
+        "message": "Done"
+      },
+      "dontHaveAHardwareWallet": {
+        "message": "Don’t have a hardware wallet?"
+      },
+      "downloadGoogleChrome": {
+        "message": "Download Google Chrome"
+      },
+      "downloadSecretBackup": {
+        "message": "Download this Secret Backup Phrase and keep it stored safely on an external encrypted hard drive or storage medium."
+      },
+      "downloadStateLogs": {
+        "message": "Download State Logs"
+      },
+      "dropped": {
+        "message": "Dropped"
+      },
+      "edit": {
+        "message": "Edit"
+      },
+      "editContact": {
+        "message": "Edit Contact"
+      },
+      "editPermission": {
+        "message": "Edit Permission"
+      },
+      "emailUs": {
+        "message": "Email us!"
+      },
+      "endOfFlowMessage1": {
+        "message": "You passed the test - keep your seedphrase safe, it's your responsibility!"
+      },
+      "endOfFlowMessage10": {
+        "message": "All Done"
+      },
+      "endOfFlowMessage2": {
+        "message": "Tips on storing it safely"
+      },
+      "endOfFlowMessage3": {
+        "message": "Save a backup in multiple places."
+      },
+      "endOfFlowMessage4": {
+        "message": "Never share the phrase with anyone."
+      },
+      "endOfFlowMessage5": {
+        "message": "Be careful of phishing! MetaMask will never spontaneously ask for your seed phrase."
+      },
+      "endOfFlowMessage6": {
+        "message": "If you need to back up your seed phrase again, you can find it in Settings -> Security."
+      },
+      "endOfFlowMessage7": {
+        "message": "If you ever have questions or see something fishy, email support@metamask.io."
+      },
+      "endOfFlowMessage8": {
+        "message": "MetaMask cannot recover your seedphrase."
+      },
+      "endOfFlowMessage9": {
+        "message": "Learn more."
+      },
+      "ensNotFoundOnCurrentNetwork": {
+        "message": "ENS name not found on the current network. Try switching to Main Ethereum Network."
+      },
+      "ensRegistrationError": {
+        "message": "Error in ENS name registration"
+      },
+      "enterAnAlias": {
+        "message": "Enter an alias"
+      },
+      "enterMaxSpendLimit": {
+        "message": "Enter Max Spend Limit"
+      },
+      "enterPassword": {
+        "message": "Enter password"
+      },
+      "enterPasswordContinue": {
+        "message": "Enter password to continue"
+      },
+      "estimatedProcessingTimes": {
+        "message": "Estimated Processing Times"
+      },
+      "ethereumPublicAddress": {
+        "message": "Ethereum Public Address"
+      },
+      "etherscanView": {
+        "message": "View account on Etherscan"
+      },
+      "expandView": {
+        "message": "Expand View"
+      },
+      "exportPrivateKey": {
+        "message": "Export Private Key"
+      },
+      "failed": {
+        "message": "Failed"
+      },
+      "fast": {
+        "message": "Fast"
+      },
+      "faster": {
+        "message": "Faster"
+      },
+      "feeAssociatedRequest": {
+        "message": "A fee is associated with this request."
+      },
+      "fiat": {
+        "description": "Exchange type",
+        "message": "Fiat"
+      },
+      "fileImportFail": {
+        "description": "Helps user import their account from a JSON file",
+        "message": "File import not working? Click here!"
+      },
+      "forgetDevice": {
+        "message": "Forget this device"
+      },
+      "from": {
+        "message": "From"
+      },
+      "fromShapeShift": {
+        "message": "From ShapeShift"
+      },
+      "functionApprove": {
+        "message": "Function: Approve"
+      },
+      "functionType": {
+        "message": "Function Type"
+      },
+      "gasLimit": {
+        "message": "Gas Limit"
+      },
+      "gasLimitCalculation": {
+        "message": "We calculate the suggested gas limit based on network success rates."
+      },
+      "gasLimitInfoModalContent": {
+        "message": "Gas limit is the maximum amount of units of gas you are willing to spend."
+      },
+      "gasLimitTooLow": {
+        "message": "Gas limit must be at least 21000"
+      },
+      "gasPrice": {
+        "message": "Gas Price (GWEI)"
+      },
+      "gasPriceCalculation": {
+        "message": "We calculate the suggested gas prices based on network success rates."
+      },
+      "gasPriceExtremelyLow": {
+        "message": "Gas Price Extremely Low"
+      },
+      "gasPriceInfoModalContent": {
+        "message": "Gas price specifies the amount of Ether you are willing to pay for each unit of gas."
+      },
+      "gasPriceNoDenom": {
+        "message": "Gas Price"
+      },
+      "gasUsed": {
+        "message": "Gas Used"
+      },
+      "general": {
+        "message": "General"
+      },
+      "generalSettingsDescription": {
+        "message": "Currency conversion, primary currency, language, blockies identicon"
+      },
+      "getEther": {
+        "message": "Get Ether"
+      },
+      "getEtherFromFaucet": {
+        "description": "Displays network name for Ether faucet",
+        "message": "Get Ether from a faucet for the $1"
+      },
+      "getHelp": {
+        "message": "Get Help."
+      },
+      "getStarted": {
+        "message": "Get Started"
+      },
+      "goerli": {
+        "message": "Goerli Test Network"
+      },
+      "greaterThanMin": {
+        "description": "helper for inputting hex as decimal input",
+        "message": "must be greater than or equal to $1."
+      },
+      "happyToSeeYou": {
+        "message": "We’re happy to see you."
+      },
+      "hardware": {
+        "message": "hardware"
+      },
+      "hardwareWalletConnected": {
+        "message": "Hardware wallet connected"
+      },
+      "hardwareWallets": {
+        "message": "Connect a hardware wallet"
+      },
+      "hardwareWalletsMsg": {
+        "message": "Select a hardware wallet you'd like to use with MetaMask"
+      },
+      "havingTroubleConnecting": {
+        "message": "Having trouble connecting?"
+      },
+      "here": {
+        "description": "as in -click here- for more information (goes with troubleTokenBalances)",
+        "message": "here"
+      },
+      "hexData": {
+        "message": "Hex Data"
+      },
+      "hide": {
+        "message": "Hide"
+      },
+      "hideToken": {
+        "message": "Hide Token"
+      },
+      "hideTokenPrompt": {
+        "message": "Hide Token?"
+      },
+      "history": {
+        "message": "History"
+      },
+      "import": {
+        "description": "Button to import an account from a selected file",
+        "message": "Import"
+      },
+      "importAccount": {
+        "message": "Import Account"
+      },
+      "importAccountMsg": {
+        "message": " Imported accounts will not be associated with your originally created MetaMask account seedphrase. Learn more about imported accounts "
+      },
+      "importAccountSeedPhrase": {
+        "message": "Import an Account with Seed Phrase"
+      },
+      "importUsingSeed": {
+        "message": "Import using account seed phrase"
+      },
+      "importWallet": {
+        "message": "Import Wallet"
+      },
+      "importYourExisting": {
+        "message": "Import your existing wallet using a 12 word seed phrase"
+      },
+      "imported": {
+        "description": "status showing that an account has been fully loaded into the keyring",
+        "message": "Imported"
+      },
+      "infoHelp": {
+        "message": "Info & Help"
+      },
+      "initialTransactionConfirmed": {
+        "message": "Your initial transaction was confirmed by the network. Click OK to go back."
+      },
+      "insufficientBalance": {
+        "message": "Insufficient balance."
+      },
+      "insufficientFunds": {
+        "message": "Insufficient funds."
+      },
+      "insufficientTokens": {
+        "message": "Insufficient tokens."
+      },
+      "invalidAddress": {
+        "message": "Invalid address"
+      },
+      "invalidAddressRecipient": {
+        "message": "Recipient address is invalid"
+      },
+      "invalidAddressRecipientNotEthNetwork": {
+        "message": "Not ETH network, set to lowercase"
+      },
+      "invalidBlockExplorerURL": {
+        "message": "Invalid Block Explorer URL"
+      },
+      "invalidInput": {
+        "message": "Invalid input."
+      },
+      "invalidRPC": {
+        "message": "Invalid RPC URL"
+      },
+      "invalidSeedPhrase": {
+        "message": "Invalid seed phrase"
+      },
+      "jsonFile": {
+        "description": "format for importing an account",
+        "message": "JSON File"
+      },
+      "knownAddressRecipient": {
+        "message": "Known contract address."
+      },
+      "knownTokenWarning": {
+        "message": "This action will edit tokens that are already listed in your wallet, which can be used to phish you. Only approve if you are certain that you mean to change what these tokens represent."
+      },
+      "kovan": {
+        "message": "Kovan Test Network"
+      },
+      "learnMore": {
+        "message": "Learn more"
+      },
+      "ledgerAccountRestriction": {
+        "message": "You need to make use your last account before you can add a new one."
+      },
+      "lessThanMax": {
+        "description": "helper for inputting hex as decimal input",
+        "message": "must be less than or equal to $1."
+      },
+      "letsGoSetUp": {
+        "message": "Yes, let’s get set up!"
+      },
+      "likeToAddTokens": {
+        "message": "Would you like to add these tokens?"
+      },
+      "links": {
+        "message": "Links"
+      },
+      "liveGasPricePredictions": {
+        "message": "Live Gas Price Predictions"
+      },
+      "loadMore": {
+        "message": "Load More"
+      },
+      "loading": {
+        "message": "Loading..."
+      },
+      "loadingTokens": {
+        "message": "Loading Tokens..."
+      },
+      "localhost": {
+        "message": "Localhost 8545"
+      },
+      "login": {
+        "message": "Log In"
+      },
+      "logout": {
+        "message": "Log out"
+      },
+      "logoutTimeTooGreat": {
+        "message": "Logout time is too great"
+      },
+      "mainnet": {
+        "message": "Main Ethereum Network"
+      },
+      "max": {
+        "message": "Max"
+      },
+      "memo": {
+        "message": "memo"
+      },
+      "memorizePhrase": {
+        "message": "Memorize this phrase."
+      },
+      "menu": {
+        "message": "Menu"
+      },
+      "message": {
+        "message": "Message"
+      },
+      "metamaskDescription": {
+        "message": "Connecting you to Ethereum and the Decentralized Web."
+      },
+      "metamaskSeedWords": {
+        "message": "MetaMask Seed Words"
+      },
+      "metamaskVersion": {
+        "message": "MetaMask Version"
+      },
+      "missingYourTokens": {
+        "message": "Don't see your tokens?"
+      },
+      "mobileSyncText": {
+        "message": "Please enter your password to confirm it's you!"
+      },
+      "mustSelectOne": {
+        "message": "Must select at least 1 token."
+      },
+      "myAccounts": {
+        "message": "My Accounts"
+      },
+      "myWalletAccounts": {
+        "message": "My Wallet Accounts"
+      },
+      "myWalletAccountsDescription": {
+        "message": "All of your MetaMask created accounts will automatically be added to this section."
+      },
+      "needEtherInWallet": {
+        "message": "To interact with decentralized applications using MetaMask, you’ll need Ether in your wallet."
+      },
+      "needImportFile": {
+        "description": "User is important an account and needs to add a file to continue",
+        "message": "You must select a file to import."
+      },
+      "negativeETH": {
+        "message": "Can not send negative amounts of ETH."
+      },
+      "networkName": {
+        "message": "Network Name"
+      },
+      "networkSettingsDescription": {
+        "message": "Add and edit custom RPC networks"
+      },
+      "networks": {
+        "message": "Networks"
+      },
+      "nevermind": {
+        "message": "Nevermind"
+      },
+      "newAccount": {
+        "message": "New Account"
+      },
+      "newAccountDetectedDialogMessage": {
+        "message": "New address detected! Click here to add to your address book."
+      },
+      "newAccountNumberName": {
+        "description": "Default name of next account to be created on create account screen",
+        "message": "Account $1"
+      },
+      "newContact": {
+        "message": "New Contact"
+      },
+      "newContract": {
+        "message": "New Contract"
+      },
+      "newNetwork": {
+        "message": "New Network"
+      },
+      "newPassword": {
+        "message": "New Password (min 8 chars)"
+      },
+      "newToMetaMask": {
+        "message": "New to MetaMask?"
+      },
+      "newTotal": {
+        "message": "New Total"
+      },
+      "newTransactionFee": {
+        "message": "New Transaction Fee"
+      },
+      "next": {
+        "message": "Next"
+      },
+      "nextNonceWarning": {
+        "description": "The next nonce according to MetaMask's internal logic",
+        "message": "Nonce is higher than suggested nonce of $1"
+      },
+      "noAddressForName": {
+        "message": "No address has been set for this name."
+      },
+      "noAlreadyHaveSeed": {
+        "message": "No, I already have a seed phrase"
+      },
+      "noConversionRateAvailable": {
+        "message": "No Conversion Rate Available"
+      },
+      "noDeposits": {
+        "message": "No deposits received"
+      },
+      "noThanks": {
+        "message": "No Thanks"
+      },
+      "noTransactions": {
+        "message": "You have no transactions"
+      },
+      "noWebcamFound": {
+        "message": "Your computer's webcam was not found. Please try again."
+      },
+      "noWebcamFoundTitle": {
+        "message": "Webcam not found"
+      },
+      "nonceField": {
+        "message": "Customize transaction nonce"
+      },
+      "nonceFieldDescription": {
+        "message": "Turn this on to change the nonce (transaction number) on confirmation screens. This is an advanced feature, use cautiously."
+      },
+      "nonceFieldHeading": {
+        "message": "Custom Nonce"
+      },
+      "notEnoughGas": {
+        "message": "Not Enough Gas"
+      },
+      "ofTextNofM": {
+        "message": "of"
+      },
+      "off": {
+        "message": "Off"
+      },
+      "ok": {
+        "message": "Ok"
+      },
+      "on": {
+        "message": "On"
+      },
+      "optionalBlockExplorerUrl": {
+        "message": "Block Explorer URL (optional)"
+      },
+      "optionalChainId": {
+        "message": "ChainID (optional)"
+      },
+      "optionalSymbol": {
+        "message": "Symbol (optional)"
+      },
+      "orderOneHere": {
+        "message": "Order a Trezor or Ledger and keep your funds in cold storage"
+      },
+      "origin": {
+        "message": "Origin"
+      },
+      "parameters": {
+        "message": "Parameters"
+      },
+      "participateInMetaMetrics": {
+        "message": "Participate in MetaMetrics"
+      },
+      "participateInMetaMetricsDescription": {
+        "message": "Participate in MetaMetrics to help us make MetaMask better"
+      },
+      "password": {
+        "message": "Password"
+      },
+      "passwordNotLongEnough": {
+        "message": "Password not long enough"
+      },
+      "passwordsDontMatch": {
+        "message": "Passwords Don't Match"
+      },
+      "pastePrivateKey": {
+        "description": "For importing an account from a private key",
+        "message": "Paste your private key string here:"
+      },
+      "pasteSeed": {
+        "message": "Paste your seed phrase here!"
+      },
+      "pending": {
+        "message": "pending"
+      },
+      "personalAddressDetected": {
+        "message": "Personal address detected. Input the token contract address."
+      },
+      "prev": {
+        "message": "Prev"
+      },
+      "primaryCurrencySetting": {
+        "message": "Primary Currency"
+      },
+      "primaryCurrencySettingDescription": {
+        "message": "Select native to prioritize displaying values in the native currency of the chain (e.g. ETH). Select Fiat to prioritize displaying values in your selected fiat currency."
+      },
+      "privacyModeDefault": {
+        "message": "Privacy Mode is now enabled by default"
+      },
+      "privacyMsg": {
+        "message": "Privacy Policy"
+      },
+      "privateKey": {
+        "description": "select this type of file to use to import an account",
+        "message": "Private Key"
+      },
+      "privateKeyWarning": {
+        "message": "Warning: Never disclose this key. Anyone with your private keys can steal any assets held in your account."
+      },
+      "privateNetwork": {
+        "message": "Private Network"
+      },
+      "proposedApprovalLimit": {
+        "message": "Proposed Approval Limit"
+      },
+      "protectYourKeys": {
+        "message": "Protect Your Keys!"
+      },
+      "protectYourKeysMessage1": {
+        "message": "Be careful with your seed phrase — there have been reports of websites that attempt to imitate MetaMask. MetaMask will never ask for your seed phrase!"
+      },
+      "protectYourKeysMessage2": {
+        "message": "Keep your phrase safe. If you see something fishy, or you’re uncertain about a website, email support@metamask.io"
+      },
+      "providerRequest": {
+        "message": "$1 would like to connect to your account"
+      },
+      "providerRequestInfo": {
+        "message": "This site is requesting access to view your current account address. Always make sure you trust the sites you interact with."
+      },
+      "qrCode": {
+        "message": "Show QR Code"
+      },
+      "queue": {
+        "message": "Queue"
+      },
+      "readdToken": {
+        "message": "You can add this token back in the future by going to “Add token” in your accounts options menu."
+      },
+      "readyToConnect": {
+        "message": "Ready to Connect?"
+      },
+      "recents": {
+        "message": "Recents"
+      },
+      "recipientAddress": {
+        "message": "Recipient Address"
+      },
+      "recipientAddressPlaceholder": {
+        "message": "Search, public address (0x), or ENS"
+      },
+      "reject": {
+        "message": "Reject"
+      },
+      "rejectAll": {
+        "message": "Reject All"
+      },
+      "rejectTxsDescription": {
+        "message": "You are about to batch reject $1 transactions."
+      },
+      "rejectTxsN": {
+        "message": "Reject $1 transactions"
+      },
+      "rejected": {
+        "message": "Rejected"
+      },
+      "remindMeLater": {
+        "message": "Remind me later"
+      },
+      "remove": {
+        "message": "Remove"
+      },
+      "removeAccount": {
+        "message": "Remove account"
+      },
+      "removeAccountDescription": {
+        "message": "This account will be removed from your wallet. Please make sure you have the original seed phrase or private key for this imported account before continuing. You can import or create accounts again from the account drop-down. "
+      },
+      "requestsAwaitingAcknowledgement": {
+        "message": "requests waiting to be acknowledged"
+      },
+      "required": {
+        "message": "Required"
+      },
+      "reset": {
+        "message": "Reset"
+      },
+      "resetAccount": {
+        "message": "Reset Account"
+      },
+      "resetAccountDescription": {
+        "message": "Resetting your account will clear your transaction history."
+      },
+      "restore": {
+        "message": "Restore"
+      },
+      "restoreAccountWithSeed": {
+        "message": "Restore your Account with Seed Phrase"
+      },
+      "restoreFromSeed": {
+        "message": "Restore account?"
+      },
+      "restoreWalletPreferences": {
+        "description": "$1 is the date at which the data was backed up",
+        "message": "A backup of your data from $1 has been found. Would you like to restore your wallet preferences?"
+      },
+      "retryTransaction": {
+        "message": "Retry Transaction"
+      },
+      "reusedTokenNameWarning": {
+        "message": "A token here reuses a symbol from another token you watch, this can be confusing or deceptive."
+      },
+      "revealSeedWords": {
+        "message": "Reveal Seed Words"
+      },
+      "revealSeedWordsDescription": {
+        "message": "If you ever change browsers or move computers, you will need this seed phrase to access your accounts. Save them somewhere safe and secret."
+      },
+      "revealSeedWordsTitle": {
+        "message": "Seed Phrase"
+      },
+      "revealSeedWordsWarning": {
+        "message": "These words can be used to steal all your accounts."
+      },
+      "revealSeedWordsWarningTitle": {
+        "message": "DO NOT share this phrase with anyone!"
+      },
+      "revert": {
+        "message": "Revert"
+      },
+      "rinkeby": {
+        "message": "Rinkeby Test Network"
+      },
+      "ropsten": {
+        "message": "Ropsten Test Network"
+      },
+      "rpcUrl": {
+        "message": "New RPC URL"
+      },
+      "save": {
+        "message": "Save"
+      },
+      "saveAsCsvFile": {
+        "message": "Save as CSV File"
+      },
+      "scanInstructions": {
+        "message": "Place the QR code in front of your camera"
+      },
+      "scanQrCode": {
+        "message": "Scan QR Code"
+      },
+      "search": {
+        "message": "Search"
+      },
+      "searchResults": {
+        "message": "Search Results"
+      },
+      "searchTokens": {
+        "message": "Search Tokens"
+      },
+      "secretBackupPhrase": {
+        "message": "Secret Backup Phrase"
+      },
+      "secretBackupPhraseDescription": {
+        "message": "Your secret backup phrase makes it easy to back up and restore your account."
+      },
+      "secretBackupPhraseWarning": {
+        "message": "WARNING: Never disclose your backup phrase. Anyone with this phrase can take your Ether forever."
+      },
+      "secretPhrase": {
+        "message": "Enter your secret twelve word phrase here to restore your vault."
+      },
+      "securityAndPrivacy": {
+        "message": "Security & Privacy"
+      },
+      "securitySettingsDescription": {
+        "message": "Privacy settings and wallet seed phrase"
+      },
+      "seedPhrasePlaceholder": {
+        "message": "Separate each word with a single space"
+      },
+      "seedPhraseReq": {
+        "message": "Seed phrases are 12 words long"
+      },
+      "selectAHigherGasFee": {
+        "message": "Select a higher gas fee to accelerate the processing of your transaction.*"
+      },
+      "selectAnAccount": {
+        "message": "Select an Account"
+      },
+      "selectAnAccountHelp": {
+        "message": "Select the account to view in MetaMask"
+      },
+      "selectCurrency": {
+        "message": "Select Currency"
+      },
+      "selectEachPhrase": {
+        "message": "Please select each phrase in order to make sure it is correct."
+      },
+      "selectHdPath": {
+        "message": "Select HD Path"
+      },
+      "selectLocale": {
+        "message": "Select Locale"
+      },
+      "selectPathHelp": {
+        "message": "If you don't see your existing Ledger accounts below, try switching paths to \"Legacy (MEW / MyCrypto)\""
+      },
+      "selectType": {
+        "message": "Select Type"
+      },
+      "send": {
+        "message": "Send"
+      },
+      "sendAmount": {
+        "message": "Send Amount"
+      },
+      "sendETH": {
+        "message": "Send ETH"
+      },
+      "sendTokens": {
+        "message": "Send Tokens"
+      },
+      "sentEther": {
+        "message": "sent ether"
+      },
+      "sentTokens": {
+        "message": "sent tokens"
+      },
+      "separateEachWord": {
+        "message": "Separate each word with a single space"
+      },
+      "settings": {
+        "message": "Settings"
+      },
+      "showAdvancedGasInline": {
+        "message": "Advanced gas controls"
+      },
+      "showAdvancedGasInlineDescription": {
+        "message": "Select this to show gas price and limit controls directly on the send and confirm screens."
+      },
+      "showFiatConversionInTestnets": {
+        "message": "Show Conversion on Testnets"
+      },
+      "showFiatConversionInTestnetsDescription": {
+        "message": "Select this to show fiat conversion on Testnets"
+      },
+      "showHexData": {
+        "message": "Show Hex Data"
+      },
+      "showHexDataDescription": {
+        "message": "Select this to show the hex data field on the send screen"
+      },
+      "showIncomingTransactions": {
+        "message": "Show Incoming Transactions"
+      },
+      "showIncomingTransactionsDescription": {
+        "message": "Select this to use Etherscan to show incoming transactions in the transactions list"
+      },
+      "showPrivateKeys": {
+        "message": "Show Private Keys"
+      },
+      "sigRequest": {
+        "message": "Signature Request"
+      },
+      "sign": {
+        "message": "Sign"
+      },
+      "signNotice": {
+        "message": "Signing this message can have \ndangerous side effects. Only sign messages from \nsites you fully trust with your entire account.\n This dangerous method will be removed in a future version. "
+      },
+      "signatureRequest": {
+        "message": "Signature Request"
+      },
+      "signatureRequest1": {
+        "message": "Message"
+      },
+      "signed": {
+        "message": "Signed"
+      },
+      "slow": {
+        "message": "Slow"
+      },
+      "slower": {
+        "message": "Slower"
+      },
+      "somethingWentWrong": {
+        "message": "Oops! Something went wrong."
+      },
+      "speedUp": {
+        "message": "Speed Up"
+      },
+      "speedUpCancellation": {
+        "message": "Speed up this cancellation"
+      },
+      "speedUpTransaction": {
+        "message": "Speed up this transaction"
+      },
+      "spendLimitInvalid": {
+        "message": "Spend limit invalid; must be a positive number"
+      },
+      "spendLimitPermission": {
+        "message": "Spend limit permission"
+      },
+      "spendLimitRequestedBy": {
+        "description": "Origin of the site requesting the spend limit",
+        "message": "Spend limit requested by $1"
+      },
+      "spendLimitTooLarge": {
+        "message": "Spend limit too large"
+      },
+      "stateLogError": {
+        "message": "Error in retrieving state logs."
+      },
+      "stateLogFileName": {
+        "message": "MetaMask State Logs"
+      },
+      "stateLogs": {
+        "message": "State Logs"
+      },
+      "stateLogsDescription": {
+        "message": "State logs contain your public account addresses and sent transactions."
+      },
+      "step1HardwareWallet": {
+        "message": "1. Connect Hardware Wallet"
+      },
+      "step1HardwareWalletMsg": {
+        "message": "Connect your hardware wallet directly to your computer."
+      },
+      "step2HardwareWallet": {
+        "message": "2. Select an Account"
+      },
+      "step2HardwareWalletMsg": {
+        "message": "Select the account you want to view. You can only choose one at a time."
+      },
+      "step3HardwareWallet": {
+        "message": "3. Start using dApps and more!"
+      },
+      "step3HardwareWalletMsg": {
+        "message": "Use your hardware account like you would with any Ethereum account. Log in to dApps, send Eth, buy and store ERC20 tokens and Non-Fungible tokens like CryptoKitties."
+      },
+      "storePhrase": {
+        "message": "Store this phrase in a password manager like 1Password."
+      },
+      "submit": {
+        "message": "Submit"
+      },
+      "submitted": {
+        "message": "Submitted"
+      },
+      "supportCenter": {
+        "message": "Visit our Support Center"
+      },
+      "switchNetworks": {
+        "message": "Switch Networks"
+      },
+      "symbol": {
+        "message": "Symbol"
+      },
+      "symbolBetweenZeroTwelve": {
+        "message": "Symbol must be between 0 and 12 characters."
+      },
+      "syncWithMobile": {
+        "message": "Sync with mobile"
+      },
+      "syncWithMobileBeCareful": {
+        "message": "Make sure nobody else is looking at your screen when you scan this code"
+      },
+      "syncWithMobileComplete": {
+        "message": "Your data has been synced succesfully. Enjoy the MetaMask mobile app!"
+      },
+      "syncWithMobileDesc": {
+        "message": "You can sync your accounts and information with your mobile device. Open the MetaMask mobile app, go to \"Settings\" and tap on \"Sync from Browser Extension\""
+      },
+      "syncWithMobileDescNewUsers": {
+        "message": "If you just open the MetaMask Mobile app for the first time, just follow the steps in your phone."
+      },
+      "syncWithMobileScanThisCode": {
+        "message": "Scan this code with your MetaMask mobile app"
+      },
+      "syncWithMobileTitle": {
+        "message": "Sync with mobile"
+      },
+      "syncWithThreeBox": {
+        "message": "Sync data with 3Box (experimental)"
+      },
+      "syncWithThreeBoxDescription": {
+        "message": "Turn on to have your settings backed up with 3Box. This feature is currenty experimental; use at your own risk."
+      },
+      "syncWithThreeBoxDisabled": {
+        "message": "3Box has been disabled due to an error during the initial sync"
+      },
+      "terms": {
+        "message": "Terms of Use"
+      },
+      "testFaucet": {
+        "message": "Test Faucet"
+      },
+      "thisWillCreate": {
+        "message": "This will create a new wallet and seed phrase"
+      },
+      "tips": {
+        "message": "Tips"
+      },
+      "to": {
+        "message": "To"
+      },
+      "toETHviaShapeShift": {
+        "description": "system will fill in deposit type in start of message",
+        "message": "$1 to ETH via ShapeShift"
+      },
+      "toWithColon": {
+        "message": "To:"
+      },
+      "token": {
+        "message": "Token"
+      },
+      "tokenAlreadyAdded": {
+        "message": "Token has already been added."
+      },
+      "tokenContractAddress": {
+        "message": "Token Contract Address"
+      },
+      "tokenSymbol": {
+        "message": "Token Symbol"
+      },
+      "total": {
+        "message": "Total"
+      },
+      "transaction": {
+        "message": "transaction"
+      },
+      "transactionCancelAttempted": {
+        "message": "Transaction cancel attempted with gas fee of $1 at $2"
+      },
+      "transactionCancelSuccess": {
+        "message": "Transaction successfully cancelled at $2"
+      },
+      "transactionConfirmed": {
+        "message": "Transaction confirmed at $2."
+      },
+      "transactionCreated": {
+        "message": "Transaction created with a value of $1 at $2."
+      },
+      "transactionDropped": {
+        "message": "Transaction dropped at $2."
+      },
+      "transactionError": {
+        "message": "Transaction Error. Exception thrown in contract code."
+      },
+      "transactionErrorNoContract": {
+        "message": "Trying to call a function on a non-contract address."
+      },
+      "transactionErrored": {
+        "message": "Transaction encountered an error."
+      },
+      "transactionFee": {
+        "message": "Transaction Fee"
+      },
+      "transactionResubmitted": {
+        "message": "Transaction resubmitted with gas fee increased to $1 at $2"
+      },
+      "transactionSubmitted": {
+        "message": "Transaction submitted with gas fee of $1 at $2."
+      },
+      "transactionTime": {
+        "message": "Transaction Time"
+      },
+      "transactionUpdated": {
+        "message": "Transaction updated at $2."
+      },
+      "transfer": {
+        "message": "Transfer"
+      },
+      "transferBetweenAccounts": {
+        "message": "Transfer between my accounts"
+      },
+      "transferFrom": {
+        "message": "Transfer From"
+      },
+      "troubleTokenBalances": {
+        "description": "Followed by a link (here) to view token balances",
+        "message": "We had trouble loading your token balances. You can view them "
+      },
+      "trustSiteApprovePermission": {
+        "description": "$1 is the url requesting permission and $2 is the symbol of the currency that the request is for",
+        "message": "Do you trust this site? By granting this permission, you’re allowing $1 to withdraw your $2 and automate transactions for you."
+      },
+      "tryAgain": {
+        "message": "Try again"
+      },
+      "typePassword": {
+        "message": "Type your MetaMask password"
+      },
+      "unapproved": {
+        "message": "Unapproved"
+      },
+      "units": {
+        "message": "units"
+      },
+      "unknown": {
+        "message": "Unknown"
+      },
+      "unknownCameraError": {
+        "message": "There was an error while trying to access your camera. Please try again..."
+      },
+      "unknownCameraErrorTitle": {
+        "message": "Ooops! Something went wrong...."
+      },
+      "unknownNetwork": {
+        "message": "Unknown Private Network"
+      },
+      "unknownQrCode": {
+        "message": "Error: We couldn't identify that QR code"
+      },
+      "unlimited": {
+        "message": "Unlimited"
+      },
+      "unlock": {
+        "message": "Unlock"
+      },
+      "unlockMessage": {
+        "message": "The decentralized web awaits"
+      },
+      "updatedWithDate": {
+        "message": "Updated $1"
+      },
+      "urlErrorMsg": {
+        "message": "URLs require the appropriate HTTP/HTTPS prefix."
+      },
+      "urlExistsErrorMsg": {
+        "message": "URL is already present in existing list of networks"
+      },
+      "usedByClients": {
+        "message": "Used by a variety of different clients"
+      },
+      "userName": {
+        "message": "Username"
+      },
+      "validFileImport": {
+        "message": "You must select a valid file to import."
+      },
+      "viewAccount": {
+        "message": "View Account"
+      },
+      "viewContact": {
+        "message": "View Contact"
+      },
+      "viewOnCustomBlockExplorer": {
+        "message": "View at $1"
+      },
+      "viewOnEtherscan": {
+        "message": "View on Etherscan"
+      },
+      "viewinExplorer": {
+        "message": "View in Explorer"
+      },
+      "visitWebSite": {
+        "message": "Visit our web site"
+      },
+      "walletSeed": {
+        "message": "Wallet Seed"
+      },
+      "welcome": {
+        "message": "Welcome to MetaMask"
+      },
+      "welcomeBack": {
+        "message": "Welcome Back!"
+      },
+      "writePhrase": {
+        "message": "Write this phrase on a piece of paper and store in a secure location. If you want even more security, write it down on multiple pieces of paper and store each in 2 - 3 different locations."
+      },
+      "yesLetsTry": {
+        "message": "Yes, let's try"
+      },
+      "youNeedToAllowCameraAccess": {
+        "message": "You need to allow camera access to use this feature."
+      },
+      "youSign": {
+        "message": "You are signing"
+      },
+      "yourPrivateSeedPhrase": {
+        "message": "Your private seed phrase"
+      },
+      "yourSigRequested": {
+        "message": "Your signature is being requested"
+      },
+      "zeroGasPriceOnSpeedUpError": {
+        "message": "Zero gas price on speed up"
+      }
+    }
+  },
+  "send": {
+    "fromDropdownOpen": false,
+    "toDropdownOpen": false,
+    "gasButtonGroupShown": true,
+    "errors": {}
+  },
+  "confirmTransaction": {
+    "txData": {},
+    "tokenData": {},
+    "methodData": {},
+    "tokenProps": {
+      "tokenDecimals": "",
+      "tokenSymbol": ""
+    },
+    "fiatTransactionAmount": "",
+    "fiatTransactionFee": "",
+    "fiatTransactionTotal": "",
+    "ethTransactionAmount": "",
+    "ethTransactionFee": "",
+    "ethTransactionTotal": "",
+    "hexTransactionAmount": "",
+    "hexTransactionFee": "",
+    "hexTransactionTotal": "",
+    "nonce": "",
+    "toSmartContract": false,
+    "fetchingData": false
+  },
+  "gas": {
+    "customData": {
+      "price": null,
+      "limit": null
+    },
+    "basicEstimates": {
+      "average": null,
+      "fastestWait": null,
+      "fastWait": null,
+      "fast": null,
+      "safeLowWait": null,
+      "blockNum": null,
+      "avgWait": null,
+      "blockTime": null,
+      "speed": null,
+      "fastest": null,
+      "safeLow": null
+    },
+    "basicEstimateIsLoading": true,
+    "gasEstimatesLoading": true,
+    "priceAndTimeEstimates": [],
+    "priceAndTimeEstimatesLastRetrieved": 0,
+    "basicPriceAndTimeEstimatesLastRetrieved": 0,
+    "basicPriceEstimatesLastRetrieved": 0,
+    "errors": {}
+  },
+  "version": "7.7.9",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36",
+  "platform": {
+    "arch": "x86-64",
+    "nacl_arch": "x86-64",
+    "os": "win"
+  }
+}
